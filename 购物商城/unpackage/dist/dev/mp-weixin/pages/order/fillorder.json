@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "填写订单",
+  "usingComponents": {
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "u-row": "/uview-ui/components/u-row/u-row",
+    "u-col": "/uview-ui/components/u-col/u-col",
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "u-select": "/uview-ui/components/u-select/u-select",
+    "u-notice-bar": "/uview-ui/components/u-notice-bar/u-notice-bar",
+    "invoices": "/pages/order/invoice/setInvoice"
+  }
+}

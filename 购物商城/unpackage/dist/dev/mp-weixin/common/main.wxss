@@ -1,0 +1,643 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/*主题颜色 具体参考   https://ant.design/docs/spec/colors-cn */
+/**微信登录按钮颜色 */
+/**主颜色*/
+/*用于金钱等颜色 */
+/*主题高亮颜色*/
+/*辅助高亮颜色*/
+/*主题高亮背景颜色*/
+/*价格红高亮背景颜色*/
+/*辅助色*/
+.light-color {
+  color: #ff6b35;
+}
+.main-color {
+  color: #ff3c2a !important;
+}
+.bg-light-color {
+  background-color: #ff6b35 !important;
+}
+.bg-main-color {
+  background-color: #ff3c2a !important;
+}
+.bg-linear-gradient {
+  background-image: linear-gradient(25deg, #fa123b, #ff6b35, #ff9f28, #ffcc03);
+}
+.uni-tabbar .uni-tabbar__icon {
+  width: 20px;
+  height: 18px;
+}
+.flex {
+  display: flex;
+}
+.btn {
+  background-color: #ff6b35;
+  color: #ffffff;
+  border-width: 0px;
+  border: none;
+  border-radius: 44px;
+  height: 44px;
+  box-shadow: none;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 44px;
+  text-align: center;
+}
+.btn::after {
+  border: none;
+}
+.button-hover {
+  opacity: 0.7;
+}
+.margin {
+  margin: 10px;
+}
+.tag {
+  background-color: #f2f2f2;
+  color: #333333;
+  height: 28px;
+  border-radius: 28px;
+  box-shadow: none;
+  font-family: "PingFangSC-Regular", "PingFang SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  text-align: center;
+  width: 90px;
+}
+.c-content {
+  background-color: #ffffff;
+  border-top: 1px solid #ebeef5;
+  border-bottom: 1px solid #ebeef5;
+}
+.mt-30 {
+  margin-top: 30rpx;
+}
+.border-top {
+  border-top: 1px solid #ebeef5;
+}
+.describe {
+  color: #909399;
+  font-size: 24rpx;
+  padding: 30rpx;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.flex-a-c {
+  align-items: center;
+}
+.flex-j-sb {
+  justify-content: space-between;
+}
+.relative {
+  position: relative;
+}
+.wes {
+  /* 多出部分用省略号表示 , 用于一行 */
+  overflow: hidden;
+  word-wrap: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.wes-2 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.wes-3 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.u-relative,
+.u-rela {
+  position: relative;
+}
+.u-absolute,
+.u-abso {
+  position: absolute;
+}
+image {
+  display: inline-block;
+}
+view,
+text {
+  box-sizing: border-box;
+}
+.u-font-xs {
+  font-size: 22rpx;
+}
+.u-font-sm {
+  font-size: 26rpx;
+}
+.u-font-md {
+  font-size: 28rpx;
+}
+.u-font-lg {
+  font-size: 30rpx;
+}
+.u-font-xl {
+  font-size: 34rpx;
+}
+.u-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.u-flex-wrap {
+  flex-wrap: wrap;
+}
+.u-flex-nowrap {
+  flex-wrap: nowrap;
+}
+.u-col-center {
+  align-items: center;
+}
+.u-col-top {
+  align-items: flex-start;
+}
+.u-col-bottom {
+  align-items: flex-end;
+}
+.u-row-center {
+  justify-content: center;
+}
+.u-row-left {
+  justify-content: flex-start;
+}
+.u-row-right {
+  justify-content: flex-end;
+}
+.u-row-between {
+  justify-content: space-between;
+}
+.u-row-around {
+  justify-content: space-around;
+}
+.u-text-left {
+  text-align: left;
+}
+.u-text-center {
+  text-align: center;
+}
+.u-text-right {
+  text-align: right;
+}
+.u-flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.u-type-primary-light {
+  color: #ecf5ff;
+}
+.u-type-warning-light {
+  color: #fdf6ec;
+}
+.u-type-success-light {
+  color: #dbf1e1;
+}
+.u-type-error-light {
+  color: #fef0f0;
+}
+.u-type-info-light {
+  color: #f4f4f5;
+}
+.u-type-primary-light-bg {
+  background-color: #ecf5ff;
+}
+.u-type-warning-light-bg {
+  background-color: #fdf6ec;
+}
+.u-type-success-light-bg {
+  background-color: #dbf1e1;
+}
+.u-type-error-light-bg {
+  background-color: #fef0f0;
+}
+.u-type-info-light-bg {
+  background-color: #f4f4f5;
+}
+.u-type-primary-dark {
+  color: #2b85e4;
+}
+.u-type-warning-dark {
+  color: #f29100;
+}
+.u-type-success-dark {
+  color: #18b566;
+}
+.u-type-error-dark {
+  color: #dd6161;
+}
+.u-type-info-dark {
+  color: #82848a;
+}
+.u-type-primary-dark-bg {
+  background-color: #2b85e4;
+}
+.u-type-warning-dark-bg {
+  background-color: #f29100;
+}
+.u-type-success-dark-bg {
+  background-color: #18b566;
+}
+.u-type-error-dark-bg {
+  background-color: #dd6161;
+}
+.u-type-info-dark-bg {
+  background-color: #82848a;
+}
+.u-type-primary-disabled {
+  color: #a0cfff;
+}
+.u-type-warning-disabled {
+  color: #fcbd71;
+}
+.u-type-success-disabled {
+  color: #71d5a1;
+}
+.u-type-error-disabled {
+  color: #fab6b6;
+}
+.u-type-info-disabled {
+  color: #c8c9cc;
+}
+.u-type-primary {
+  color: #2979ff;
+}
+.u-type-warning {
+  color: #ff9900;
+}
+.u-type-success {
+  color: #19be6b;
+}
+.u-type-error {
+  color: #fa3534;
+}
+.u-type-info {
+  color: #909399;
+}
+.u-type-primary-bg {
+  background-color: #2979ff;
+}
+.u-type-warning-bg {
+  background-color: #ff9900;
+}
+.u-type-success-bg {
+  background-color: #19be6b;
+}
+.u-type-error-bg {
+  background-color: #fa3534;
+}
+.u-type-info-bg {
+  background-color: #909399;
+}
+.u-main-color {
+  color: #303133;
+}
+.u-content-color {
+  color: #606266;
+}
+.u-tips-color {
+  color: #909399;
+}
+.u-light-color {
+  color: #c0c4cc;
+}
+page {
+  color: #303133;
+  font-size: 28rpx;
+}
+/* start--去除webkit的默认样式--start */
+.u-fix-ios-appearance {
+  -webkit-appearance: none;
+}
+/* end--去除webkit的默认样式--end */
+/* start--icon图标外层套一个view，让其达到更好的垂直居中的效果--start */
+.u-icon-wrap {
+  display: flex;
+  align-items: center;
+}
+/* end-icon图标外层套一个view，让其达到更好的垂直居中的效果--end */
+/* start--iPhoneX底部安全区定义--start */
+.safe-area-inset-bottom {
+  padding-bottom: 0;
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+/* end-iPhoneX底部安全区定义--end */
+/* start--各种hover点击反馈相关的类名-start */
+.u-hover-class {
+  opacity: 0.6;
+}
+.u-cell-hover {
+  background-color: #f7f8f9 !important;
+}
+/* end--各种hover点击反馈相关的类名--end */
+/* start--文本行数限制--start */
+.u-line-1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.u-line-2 {
+  -webkit-line-clamp: 2;
+}
+.u-line-3 {
+  -webkit-line-clamp: 3;
+}
+.u-line-4 {
+  -webkit-line-clamp: 4;
+}
+.u-line-5 {
+  -webkit-line-clamp: 5;
+}
+.u-line-2, .u-line-3, .u-line-4, .u-line-5 {
+  overflow: hidden;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+/* end--文本行数限制--end */
+/* start--Retina 屏幕下的 1px 边框--start */
+.u-border,
+.u-border-bottom,
+.u-border-left,
+.u-border-right,
+.u-border-top,
+.u-border-top-bottom {
+  position: relative;
+}
+.u-border-bottom:after,
+.u-border-left:after,
+.u-border-right:after,
+.u-border-top-bottom:after,
+.u-border-top:after,
+.u-border:after {
+  content: ' ';
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  box-sizing: border-box;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  width: 199.8%;
+  height: 199.7%;
+  -webkit-transform: scale(0.5, 0.5);
+          transform: scale(0.5, 0.5);
+  border: 0 solid #e4e7ed;
+  z-index: 2;
+}
+.u-border-top:after {
+  border-top-width: 1px;
+}
+.u-border-left:after {
+  border-left-width: 1px;
+}
+.u-border-right:after {
+  border-right-width: 1px;
+}
+.u-border-bottom:after {
+  border-bottom-width: 1px;
+}
+.u-border-top-bottom:after {
+  border-width: 1px 0;
+}
+.u-border:after {
+  border-width: 1px;
+}
+/* end--Retina 屏幕下的 1px 边框--end */
+/* start--clearfix--start */
+.u-clearfix:after,
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* end--clearfix--end */
+/* start--高斯模糊tabbar底部处理--start */
+.u-blur-effect-inset {
+  width: 750rpx;
+  height: 0px;
+  background-color: #FFFFFF;
+}
+/* end--高斯模糊tabbar底部处理--end */
+/* start--提升H5端uni.toast()的层级，避免被uView的modal等遮盖--start */
+/* end--提升H5端uni.toast()的层级，避免被uView的modal等遮盖--end */
+/* start--微信小程序编译后页面有组件名的元素，特别处理--start */
+u-td, u-th {
+  flex: 1;
+  align-self: stretch;
+}
+.u-td {
+  height: 100%;
+}
+u-icon {
+  display: inline-flex;
+  align-items: center;
+}
+u-grid {
+  width: 100%;
+  flex: 0 0 100%;
+}
+u-line {
+  flex: 1;
+}
+u-switch {
+  display: inline-flex;
+  align-items: center;
+}
+/* end-微信小程序编译后页面有组件名的元素，特别处理--end */
+.mp-iphonex-bottom {
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
+  box-sizing: content-box;
+  height: auto !important;
+  padding-top: 10rpx;
+}
+page {
+  background-color: #f9f9f9;
+}
+/************************ */
+.w200 {
+  width: 200rpx !important;
+}
+.flex1 {
+  flex: 1;
+}
+
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/*主题颜色 具体参考   https://ant.design/docs/spec/colors-cn */
+/**微信登录按钮颜色 */
+/**主颜色*/
+/*用于金钱等颜色 */
+/*主题高亮颜色*/
+/*辅助高亮颜色*/
+/*主题高亮背景颜色*/
+/*价格红高亮背景颜色*/
+/*辅助色*/
+.light-color.data-v-4f09cba0 {
+  color: #ff6b35;
+}
+.main-color.data-v-4f09cba0 {
+  color: #ff3c2a !important;
+}
+.bg-light-color.data-v-4f09cba0 {
+  background-color: #ff6b35 !important;
+}
+.bg-main-color.data-v-4f09cba0 {
+  background-color: #ff3c2a !important;
+}
+.bg-linear-gradient.data-v-4f09cba0 {
+  background-image: linear-gradient(25deg, #fa123b, #ff6b35, #ff9f28, #ffcc03);
+}
+.uni-tabbar .uni-tabbar__icon.data-v-4f09cba0 {
+  width: 20px;
+  height: 18px;
+}
+.flex.data-v-4f09cba0 {
+  display: flex;
+}
+.btn.data-v-4f09cba0 {
+  background-color: #ff6b35;
+  color: #ffffff;
+  border-width: 0px;
+  border: none;
+  border-radius: 44px;
+  height: 44px;
+  box-shadow: none;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 44px;
+  text-align: center;
+}
+.btn.data-v-4f09cba0::after {
+  border: none;
+}
+.button-hover.data-v-4f09cba0 {
+  opacity: 0.7;
+}
+.margin.data-v-4f09cba0 {
+  margin: 10px;
+}
+.tag.data-v-4f09cba0 {
+  background-color: #f2f2f2;
+  color: #333333;
+  height: 28px;
+  border-radius: 28px;
+  box-shadow: none;
+  font-family: "PingFangSC-Regular", "PingFang SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  text-align: center;
+  width: 90px;
+}
+.c-content.data-v-4f09cba0 {
+  background-color: #ffffff;
+  border-top: 1px solid #ebeef5;
+  border-bottom: 1px solid #ebeef5;
+}
+.mt-30.data-v-4f09cba0 {
+  margin-top: 30rpx;
+}
+.border-top.data-v-4f09cba0 {
+  border-top: 1px solid #ebeef5;
+}
+.describe.data-v-4f09cba0 {
+  color: #909399;
+  font-size: 24rpx;
+  padding: 30rpx;
+}
+.flex-center.data-v-4f09cba0 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.flex-a-c.data-v-4f09cba0 {
+  align-items: center;
+}
+.flex-j-sb.data-v-4f09cba0 {
+  justify-content: space-between;
+}
+.relative.data-v-4f09cba0 {
+  position: relative;
+}
+.wes.data-v-4f09cba0 {
+  /* 多出部分用省略号表示 , 用于一行 */
+  overflow: hidden;
+  word-wrap: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.wes-2.data-v-4f09cba0 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.wes-3.data-v-4f09cba0 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.img.data-v-4f09cba0 {
+  margin: 0 4rpx;
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 50%;
+  border: 5rpx solid #fff;
+}
+.open.data-v-4f09cba0 {
+  margin: 0 10rpx;
+  text-align: center;
+  font-size: 26rpx;
+}
+.wrapper.data-v-4f09cba0:hover {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+.wrapper.data-v-4f09cba0 {
+  -webkit-transform: translateX(160rpx);
+          transform: translateX(160rpx);
+  transition: 0.35s;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  color: #fff;
+  background: #ff6b35;
+  position: fixed;
+  top: 25%;
+  right: 0;
+  height: 60rpx;
+  z-index: 9;
+}
+

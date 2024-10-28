@@ -1,0 +1,276 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/*主题颜色 具体参考   https://ant.design/docs/spec/colors-cn */
+/**微信登录按钮颜色 */
+/**主颜色*/
+/*用于金钱等颜色 */
+/*主题高亮颜色*/
+/*辅助高亮颜色*/
+/*主题高亮背景颜色*/
+/*价格红高亮背景颜色*/
+/*辅助色*/
+.light-color {
+  color: #ff6b35;
+}
+.main-color {
+  color: #ff3c2a !important;
+}
+.bg-light-color {
+  background-color: #ff6b35 !important;
+}
+.bg-main-color {
+  background-color: #ff3c2a !important;
+}
+.bg-linear-gradient {
+  background-image: linear-gradient(25deg, #fa123b, #ff6b35, #ff9f28, #ffcc03);
+}
+.uni-tabbar .uni-tabbar__icon {
+  width: 20px;
+  height: 18px;
+}
+.flex {
+  display: flex;
+}
+.btn {
+  background-color: #ff6b35;
+  color: #ffffff;
+  border-width: 0px;
+  border: none;
+  border-radius: 44px;
+  height: 44px;
+  box-shadow: none;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 44px;
+  text-align: center;
+}
+.btn::after {
+  border: none;
+}
+.button-hover {
+  opacity: 0.7;
+}
+.margin {
+  margin: 10px;
+}
+.tag {
+  background-color: #f2f2f2;
+  color: #333333;
+  height: 28px;
+  border-radius: 28px;
+  box-shadow: none;
+  font-family: "PingFangSC-Regular", "PingFang SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  text-align: center;
+  width: 90px;
+}
+.c-content {
+  background-color: #ffffff;
+  border-top: 1px solid #ebeef5;
+  border-bottom: 1px solid #ebeef5;
+}
+.mt-30 {
+  margin-top: 30rpx;
+}
+.border-top {
+  border-top: 1px solid #ebeef5;
+}
+.describe {
+  color: #909399;
+  font-size: 24rpx;
+  padding: 30rpx;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.flex-a-c {
+  align-items: center;
+}
+.flex-j-sb {
+  justify-content: space-between;
+}
+.relative {
+  position: relative;
+}
+.wes {
+  /* 多出部分用省略号表示 , 用于一行 */
+  overflow: hidden;
+  word-wrap: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.wes-2 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.wes-3 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+page,
+.content {
+  background: #f8f8f8;
+  height: 100%;
+}
+.slot-wrap {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding-right: 72rpx;
+}
+.content {
+  width: 100%;
+}
+.swiper-box {
+  overflow-y: auto;
+}
+.list-scroll-content {
+  height: 100%;
+  width: 100%;
+}
+ .u-swipe-content {
+  overflow: hidden;
+}
+.goods {
+  background-color: #fff;
+  border-bottom: 1px solid #ebeef5;
+  height: 190rpx;
+  display: flex;
+  align-items: center;
+  padding: 30rpx 20rpx;
+  margin-top: 20rpx;
+}
+.goods image {
+  width: 131rpx;
+  height: 131rpx;
+  border-radius: 10rpx;
+}
+.goods .goods-intro {
+  flex: 1;
+  font-size: 28rpx;
+  line-height: 48rpx;
+  margin-left: 30rpx;
+}
+.goods .goods-intro view:nth-child(1) {
+  line-height: 1.4em;
+  font-size: 24rpx;
+  max-height: 2.8em;
+  overflow: hidden;
+  color: #666;
+}
+.goods .goods-intro view:nth-child(2) {
+  color: #cccccc;
+  font-size: 24rpx;
+}
+.goods .goods-intro view:nth-child(3) {
+  color: #ff6b35;
+}
+.goods button {
+  color: #ff3c2a;
+  height: 50rpx;
+  width: 120rpx;
+  font-size: 24rpx;
+  padding: 0;
+  line-height: 50rpx;
+  background-color: #ffffff;
+  margin-top: 80rpx;
+}
+.goods button::after {
+  border-color: #ff3c2a;
+}
+.store {
+  background-color: #fff;
+  border: 1px solid #ebeef5;
+  border-radius: 16rpx;
+  margin: 20rpx 10rpx;
+}
+.store .intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30rpx 0 40rpx;
+  height: 170rpx;
+}
+.store .intro .store-logo {
+  width: 102rpx;
+  height: 102rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.store .intro .store-logo image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.store .intro .store-name {
+  flex: 1;
+  margin-left: 30rpx;
+  line-height: 2em;
+}
+.store .intro .store-name :first-child {
+  font-size: 28rpx;
+}
+.store .intro .store-name :last-child {
+  font-size: 24rpx;
+  color: #999;
+}
+.store .intro .store-collect {
+  border-left: 1px solid #ebeef5;
+  padding-left: 20rpx;
+  text-align: center;
+}
+.store .intro .store-collect :last-child {
+  color: #999;
+  font-size: 24rpx;
+}
+.navbar {
+  display: flex;
+  height: 40px;
+  padding: 0 5px;
+  background: #fff;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.06);
+  position: relative;
+  z-index: 10;
+}
+.navbar .nav-item {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 26rpx;
+}
+.navbar .nav-item text {
+  position: relative;
+}
+.navbar .nav-item text.current {
+  color: #ff6b35;
+  font-weight: bold;
+  font-size: 28rpx;
+}
+.navbar .nav-item text.current::after {
+  content: "";
+  position: absolute;
+  left: 20rpx;
+  bottom: -10rpx;
+  width: 30rpx;
+  height: 0;
+  border-bottom: 2px solid #ff6b35;
+}
+

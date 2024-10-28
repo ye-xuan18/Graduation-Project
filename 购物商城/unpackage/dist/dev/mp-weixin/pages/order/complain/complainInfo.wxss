@@ -1,0 +1,176 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/*主题颜色 具体参考   https://ant.design/docs/spec/colors-cn */
+/**微信登录按钮颜色 */
+/**主颜色*/
+/*用于金钱等颜色 */
+/*主题高亮颜色*/
+/*辅助高亮颜色*/
+/*主题高亮背景颜色*/
+/*价格红高亮背景颜色*/
+/*辅助色*/
+.light-color.data-v-0252a0b3 {
+  color: #ff6b35;
+}
+.main-color.data-v-0252a0b3 {
+  color: #ff3c2a !important;
+}
+.bg-light-color.data-v-0252a0b3 {
+  background-color: #ff6b35 !important;
+}
+.bg-main-color.data-v-0252a0b3 {
+  background-color: #ff3c2a !important;
+}
+.bg-linear-gradient.data-v-0252a0b3 {
+  background-image: linear-gradient(25deg, #fa123b, #ff6b35, #ff9f28, #ffcc03);
+}
+.uni-tabbar .uni-tabbar__icon.data-v-0252a0b3 {
+  width: 20px;
+  height: 18px;
+}
+.flex.data-v-0252a0b3 {
+  display: flex;
+}
+.btn.data-v-0252a0b3 {
+  background-color: #ff6b35;
+  color: #ffffff;
+  border-width: 0px;
+  border: none;
+  border-radius: 44px;
+  height: 44px;
+  box-shadow: none;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 44px;
+  text-align: center;
+}
+.btn.data-v-0252a0b3::after {
+  border: none;
+}
+.button-hover.data-v-0252a0b3 {
+  opacity: 0.7;
+}
+.margin.data-v-0252a0b3 {
+  margin: 10px;
+}
+.tag.data-v-0252a0b3 {
+  background-color: #f2f2f2;
+  color: #333333;
+  height: 28px;
+  border-radius: 28px;
+  box-shadow: none;
+  font-family: "PingFangSC-Regular", "PingFang SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  text-align: center;
+  width: 90px;
+}
+.c-content.data-v-0252a0b3 {
+  background-color: #ffffff;
+  border-top: 1px solid #ebeef5;
+  border-bottom: 1px solid #ebeef5;
+}
+.mt-30.data-v-0252a0b3 {
+  margin-top: 30rpx;
+}
+.border-top.data-v-0252a0b3 {
+  border-top: 1px solid #ebeef5;
+}
+.describe.data-v-0252a0b3 {
+  color: #909399;
+  font-size: 24rpx;
+  padding: 30rpx;
+}
+.flex-center.data-v-0252a0b3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.flex-a-c.data-v-0252a0b3 {
+  align-items: center;
+}
+.flex-j-sb.data-v-0252a0b3 {
+  justify-content: space-between;
+}
+.relative.data-v-0252a0b3 {
+  position: relative;
+}
+.wes.data-v-0252a0b3 {
+  /* 多出部分用省略号表示 , 用于一行 */
+  overflow: hidden;
+  word-wrap: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.wes-2.data-v-0252a0b3 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.wes-3.data-v-0252a0b3 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.row.data-v-0252a0b3 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 26rpx 32rpx;
+}
+.speak-msg.data-v-0252a0b3 {
+  padding: 26rpx 32rpx;
+}
+.speak-msg > ._span.data-v-0252a0b3 {
+  color: #999 !important;
+}
+.admin.data-v-0252a0b3 {
+  color: #ff3c2a;
+}
+.speak-way.data-v-0252a0b3 {
+  background: #fff;
+}
+.wrapper.data-v-0252a0b3 {
+  padding: 16rpx;
+}
+.tips.data-v-0252a0b3 {
+  margin: 40rpx 32rpx;
+}
+.cell.data-v-0252a0b3 {
+  width: 100%;
+  background: #fff;
+  padding: 26rpx;
+}
+.complain-content.data-v-0252a0b3 {
+  margin: 40rpx 32rpx;
+  display: flex;
+  align-items: center;
+}
+.complain-content .content.data-v-0252a0b3 {
+  width: 100%;
+}
+.complain-content .title.data-v-0252a0b3 {
+  width: 140rpx;
+}
+.submit-btn.data-v-0252a0b3 {
+  width: 70%;
+  margin: 0 auto;
+  height: 80rpx;
+  line-height: 80rpx;
+  color: #fff;
+  text-align: center;
+  background: #ff6b35;
+  margin-top: 20px;
+  border-radius: 200px;
+}
+

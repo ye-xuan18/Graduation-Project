@@ -1,0 +1,210 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/*主题颜色 具体参考   https://ant.design/docs/spec/colors-cn */
+/**微信登录按钮颜色 */
+/**主颜色*/
+/*用于金钱等颜色 */
+/*主题高亮颜色*/
+/*辅助高亮颜色*/
+/*主题高亮背景颜色*/
+/*价格红高亮背景颜色*/
+/*辅助色*/
+.light-color.data-v-3cef9db0 {
+  color: #ff6b35;
+}
+.main-color.data-v-3cef9db0 {
+  color: #ff3c2a !important;
+}
+.bg-light-color.data-v-3cef9db0 {
+  background-color: #ff6b35 !important;
+}
+.bg-main-color.data-v-3cef9db0 {
+  background-color: #ff3c2a !important;
+}
+.bg-linear-gradient.data-v-3cef9db0 {
+  background-image: linear-gradient(25deg, #fa123b, #ff6b35, #ff9f28, #ffcc03);
+}
+.uni-tabbar .uni-tabbar__icon.data-v-3cef9db0 {
+  width: 20px;
+  height: 18px;
+}
+.flex.data-v-3cef9db0 {
+  display: flex;
+}
+.btn.data-v-3cef9db0 {
+  background-color: #ff6b35;
+  color: #ffffff;
+  border-width: 0px;
+  border: none;
+  border-radius: 44px;
+  height: 44px;
+  box-shadow: none;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 44px;
+  text-align: center;
+}
+.btn.data-v-3cef9db0::after {
+  border: none;
+}
+.button-hover.data-v-3cef9db0 {
+  opacity: 0.7;
+}
+.margin.data-v-3cef9db0 {
+  margin: 10px;
+}
+.tag.data-v-3cef9db0 {
+  background-color: #f2f2f2;
+  color: #333333;
+  height: 28px;
+  border-radius: 28px;
+  box-shadow: none;
+  font-family: "PingFangSC-Regular", "PingFang SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  text-align: center;
+  width: 90px;
+}
+.c-content.data-v-3cef9db0 {
+  background-color: #ffffff;
+  border-top: 1px solid #ebeef5;
+  border-bottom: 1px solid #ebeef5;
+}
+.mt-30.data-v-3cef9db0 {
+  margin-top: 30rpx;
+}
+.border-top.data-v-3cef9db0 {
+  border-top: 1px solid #ebeef5;
+}
+.describe.data-v-3cef9db0 {
+  color: #909399;
+  font-size: 24rpx;
+  padding: 30rpx;
+}
+.flex-center.data-v-3cef9db0 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.flex-a-c.data-v-3cef9db0 {
+  align-items: center;
+}
+.flex-j-sb.data-v-3cef9db0 {
+  justify-content: space-between;
+}
+.relative.data-v-3cef9db0 {
+  position: relative;
+}
+.wes.data-v-3cef9db0 {
+  /* 多出部分用省略号表示 , 用于一行 */
+  overflow: hidden;
+  word-wrap: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.wes-2.data-v-3cef9db0 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.wes-3.data-v-3cef9db0 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.light.data-v-3cef9db0 {
+  background-image: linear-gradient(135deg, #ffba0d, #ffc30d 69%, #ffcf0d) !important;
+  box-shadow: 0 2px 6px 0 rgba(255, 65, 66, 0.2);
+}
+.noMore.data-v-3cef9db0 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.view-item.data-v-3cef9db0 {
+  display: flex;
+  align-items: center;
+  padding: 22rpx 0;
+}
+.view-box-dress.data-v-3cef9db0 {
+  letter-spacing: 1rpx;
+  margin-left: 20rpx;
+  line-height: 42rpx;
+  color: #333;
+  font-size: 28rpx;
+}
+.checked.data-v-3cef9db0 {
+  background: #ff3c2a;
+}
+.active.data-v-3cef9db0 {
+  color: #fff;
+}
+.checkbox.data-v-3cef9db0 {
+  text-align: center;
+  line-height: 40rpx;
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 50%;
+  border: 2rpx solid #ededed;
+}
+.view-class-title.data-v-3cef9db0 {
+  font-size: 26rpx;
+  color: #262626;
+  font-weight: 700;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.confirmBtn.data-v-3cef9db0 {
+  width: 90%;
+}
+.confirmBtn.data-v-3cef9db0,
+.box-btn.data-v-3cef9db0 {
+  line-height: 80rpx;
+  height: 80rpx;
+  background: #ff3c2a;
+  color: #fff;
+  border-radius: 200px;
+  text-align: center;
+  margin: 5rpx auto;
+}
+.btns.data-v-3cef9db0 {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+}
+.goods-price-bigshow.data-v-3cef9db0 {
+  font-size: 48rpx;
+  font-weight: bold;
+}
+.box-btn.data-v-3cef9db0 {
+  flex: 1;
+  margin: 0 10rpx;
+}
+.view-box.data-v-3cef9db0 {
+  height: 810rpx;
+  height: 770rpx;
+  padding: 0 20rpx;
+  overflow-y: auto;
+}
+.header-title.data-v-3cef9db0 {
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  height: 90rpx;
+  line-height: 90rpx;
+  font-size: 34rpx;
+}
+

@@ -1,0 +1,293 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/*主题颜色 具体参考   https://ant.design/docs/spec/colors-cn */
+/**微信登录按钮颜色 */
+/**主颜色*/
+/*用于金钱等颜色 */
+/*主题高亮颜色*/
+/*辅助高亮颜色*/
+/*主题高亮背景颜色*/
+/*价格红高亮背景颜色*/
+/*辅助色*/
+.light-color.data-v-67aadf18 {
+  color: #ff6b35;
+}
+.main-color.data-v-67aadf18 {
+  color: #ff3c2a !important;
+}
+.bg-light-color.data-v-67aadf18 {
+  background-color: #ff6b35 !important;
+}
+.bg-main-color.data-v-67aadf18 {
+  background-color: #ff3c2a !important;
+}
+.bg-linear-gradient.data-v-67aadf18 {
+  background-image: linear-gradient(25deg, #fa123b, #ff6b35, #ff9f28, #ffcc03);
+}
+.uni-tabbar .uni-tabbar__icon.data-v-67aadf18 {
+  width: 20px;
+  height: 18px;
+}
+.flex.data-v-67aadf18 {
+  display: flex;
+}
+.btn.data-v-67aadf18 {
+  background-color: #ff6b35;
+  color: #ffffff;
+  border-width: 0px;
+  border: none;
+  border-radius: 44px;
+  height: 44px;
+  box-shadow: none;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 44px;
+  text-align: center;
+}
+.btn.data-v-67aadf18::after {
+  border: none;
+}
+.button-hover.data-v-67aadf18 {
+  opacity: 0.7;
+}
+.margin.data-v-67aadf18 {
+  margin: 10px;
+}
+.tag.data-v-67aadf18 {
+  background-color: #f2f2f2;
+  color: #333333;
+  height: 28px;
+  border-radius: 28px;
+  box-shadow: none;
+  font-family: "PingFangSC-Regular", "PingFang SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  text-align: center;
+  width: 90px;
+}
+.c-content.data-v-67aadf18 {
+  background-color: #ffffff;
+  border-top: 1px solid #ebeef5;
+  border-bottom: 1px solid #ebeef5;
+}
+.mt-30.data-v-67aadf18 {
+  margin-top: 30rpx;
+}
+.border-top.data-v-67aadf18 {
+  border-top: 1px solid #ebeef5;
+}
+.describe.data-v-67aadf18 {
+  color: #909399;
+  font-size: 24rpx;
+  padding: 30rpx;
+}
+.flex-center.data-v-67aadf18 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.flex-a-c.data-v-67aadf18 {
+  align-items: center;
+}
+.flex-j-sb.data-v-67aadf18 {
+  justify-content: space-between;
+}
+.relative.data-v-67aadf18 {
+  position: relative;
+}
+.wes.data-v-67aadf18 {
+  /* 多出部分用省略号表示 , 用于一行 */
+  overflow: hidden;
+  word-wrap: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.wes-2.data-v-67aadf18 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.wes-3.data-v-67aadf18 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+page.data-v-67aadf18,
+.content.data-v-67aadf18 {
+  background: #f8f8f8;
+  height: 100%;
+}
+.swiper-box.data-v-67aadf18 {
+  height: calc(100vh - 40px);
+}
+.list-scroll-content.data-v-67aadf18 {
+  height: 100%;
+}
+.navbar.data-v-67aadf18 {
+  display: flex;
+  height: 40px;
+  padding: 0 5px;
+  background: #fff;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.06);
+  position: relative;
+  z-index: 10;
+}
+.navbar .nav-item.data-v-67aadf18 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 26rpx;
+  color: #909399;
+  position: relative;
+}
+.navbar .nav-item.current.data-v-67aadf18 {
+  color: #ff3c2a;
+}
+.navbar .nav-item.current.data-v-67aadf18:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 44px;
+  height: 0;
+  border-bottom: 2px solid #ff3c2a;
+}
+.uni-swiper-item.data-v-67aadf18 {
+  height: auto;
+}
+.seller-view.data-v-67aadf18 {
+  border-radius: 20rpx;
+  background-color: #fff;
+  margin: 20rpx 0rpx;
+}
+.seller-view .seller-info.data-v-67aadf18 {
+  height: 70rpx;
+  padding: 0 20rpx;
+}
+.seller-view .seller-info .seller-name.data-v-67aadf18 {
+  flex: 10;
+  font-size: 28rpx;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+}
+.seller-view .seller-info .seller-name .name.data-v-67aadf18 {
+  margin-left: 15rpx;
+  margin-top: -2rpx;
+}
+.seller-view .seller-info .order-sn.data-v-67aadf18 {
+  flex: 2;
+  width: 120rpx;
+  text-align: center;
+  color: #ff9f28;
+  font-size: 26rpx;
+}
+.seller-view .goods-item-view.data-v-67aadf18 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 10rpx 20rpx;
+}
+.seller-view .goods-item-view .goods-img.data-v-67aadf18 {
+  width: 131rpx;
+  height: 131rpx;
+  margin-right: 10rpx;
+  margin-bottom: 10rpx;
+}
+.seller-view .goods-item-view .goods-info.data-v-67aadf18 {
+  padding-left: 30rpx;
+  flex: 1;
+}
+.seller-view .goods-item-view .goods-info .goods-title.data-v-67aadf18 {
+  margin-bottom: 10rpx;
+  color: #333333;
+}
+.seller-view .goods-item-view .goods-info .goods-specs.data-v-67aadf18 {
+  font-size: 24rpx;
+  margin-bottom: 10rpx;
+  color: #cccccc;
+}
+.seller-view .goods-item-view .goods-info .goods-price.data-v-67aadf18 {
+  font-size: 28rpx;
+  margin-bottom: 10rpx;
+  color: #ff9f28;
+}
+.seller-view .goods-item-view .goods-num.data-v-67aadf18 {
+  width: 60rpx;
+  color: #ff3c2a;
+}
+.seller-view .btn-view.data-v-67aadf18 {
+  padding: 25rpx 30rpx;
+  font-size: 26rpx;
+}
+.seller-view .btn-view .description.data-v-67aadf18 {
+  display: flex;
+  color: #909399;
+  size: 24rpx;
+  flex: 1;
+}
+.seller-view .btn-view .description .price.data-v-67aadf18 {
+  color: #ff3c2a;
+}
+.cancel-popup .header.data-v-67aadf18 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 15rpx 0rpx;
+}
+.cancel-popup .body.data-v-67aadf18 {
+  padding: 30rpx;
+}
+.cancel-popup .body .title.data-v-67aadf18 {
+  font-weight: 600;
+}
+.cancel-popup .body .value.data-v-67aadf18 {
+  display: flex;
+  flex-direction: column;
+  margin: 20rpx 0;
+}
+.cancel-popup .body .value .radio-view.data-v-67aadf18 {
+  margin: 20rpx 0rpx;
+}
+.cancel-popup .footer.data-v-67aadf18 {
+  text-align: center;
+}
+.goods-btn.data-v-67aadf18 {
+  display: flex;
+}
+.cancel-btn.data-v-67aadf18, .pay-btn.data-v-67aadf18, .rebuy-btn.data-v-67aadf18 {
+  text-align: center;
+  margin-left: 15rpx;
+  font-size: 24rpx;
+  padding: 14rpx 20rpx;
+  border-radius: 100px;
+}
+.cancel-btn.data-v-67aadf18 {
+  color: #333639 !important;
+  background: rgba(46, 51, 56, 0.05) !important;
+}
+.pay-btn.data-v-67aadf18 {
+  background-color: #ff6b35 !important;
+  color: #ffffff !important;
+}
+.rebuy-btn.data-v-67aadf18 {
+  color: #ff6b35 !important;
+  border-color: #ff6b35 !important;
+  background-color: #ffffff !important;
+}
+

@@ -1,0 +1,218 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/*主题颜色 具体参考   https://ant.design/docs/spec/colors-cn */
+/**微信登录按钮颜色 */
+/**主颜色*/
+/*用于金钱等颜色 */
+/*主题高亮颜色*/
+/*辅助高亮颜色*/
+/*主题高亮背景颜色*/
+/*价格红高亮背景颜色*/
+/*辅助色*/
+.light-color.data-v-5c160698 {
+  color: #ff6b35;
+}
+.main-color.data-v-5c160698 {
+  color: #ff3c2a !important;
+}
+.bg-light-color.data-v-5c160698 {
+  background-color: #ff6b35 !important;
+}
+.bg-main-color.data-v-5c160698 {
+  background-color: #ff3c2a !important;
+}
+.bg-linear-gradient.data-v-5c160698 {
+  background-image: linear-gradient(25deg, #fa123b, #ff6b35, #ff9f28, #ffcc03);
+}
+.uni-tabbar .uni-tabbar__icon.data-v-5c160698 {
+  width: 20px;
+  height: 18px;
+}
+.flex.data-v-5c160698 {
+  display: flex;
+}
+.btn.data-v-5c160698 {
+  background-color: #ff6b35;
+  color: #ffffff;
+  border-width: 0px;
+  border: none;
+  border-radius: 44px;
+  height: 44px;
+  box-shadow: none;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 44px;
+  text-align: center;
+}
+.btn.data-v-5c160698::after {
+  border: none;
+}
+.button-hover.data-v-5c160698 {
+  opacity: 0.7;
+}
+.margin.data-v-5c160698 {
+  margin: 10px;
+}
+.tag.data-v-5c160698 {
+  background-color: #f2f2f2;
+  color: #333333;
+  height: 28px;
+  border-radius: 28px;
+  box-shadow: none;
+  font-family: "PingFangSC-Regular", "PingFang SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  text-align: center;
+  width: 90px;
+}
+.c-content.data-v-5c160698 {
+  background-color: #ffffff;
+  border-top: 1px solid #ebeef5;
+  border-bottom: 1px solid #ebeef5;
+}
+.mt-30.data-v-5c160698 {
+  margin-top: 30rpx;
+}
+.border-top.data-v-5c160698 {
+  border-top: 1px solid #ebeef5;
+}
+.describe.data-v-5c160698 {
+  color: #909399;
+  font-size: 24rpx;
+  padding: 30rpx;
+}
+.flex-center.data-v-5c160698 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.flex-a-c.data-v-5c160698 {
+  align-items: center;
+}
+.flex-j-sb.data-v-5c160698 {
+  justify-content: space-between;
+}
+.relative.data-v-5c160698 {
+  position: relative;
+}
+.wes.data-v-5c160698 {
+  /* 多出部分用省略号表示 , 用于一行 */
+  overflow: hidden;
+  word-wrap: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.wes-2.data-v-5c160698 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.wes-3.data-v-5c160698 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.msgTime.data-v-5c160698 {
+  font-size: 13px;
+}
+page.data-v-5c160698 {
+  background: #f8f8f8;
+}
+.list_img.data-v-5c160698 {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  border-radius: 0.4em;
+}
+.qicon.data-v-5c160698 {
+  text-align: center;
+  display: block;
+  font-size: 20px;
+}
+.redBox.data-v-5c160698 {
+  padding: 10rpx 12rpx;
+  display: inline-block;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1em;
+  width: 1em;
+  height: 1em;
+  background: #ed6533;
+  border-radius: 50%;
+  color: #fff;
+}
+.tit_title.data-v-5c160698,
+.tit_tips.data-v-5c160698 {
+  margin-left: 8rpx;
+}
+.tit_title.data-v-5c160698 {
+  color: #303133;
+}
+.tit_title > ._img.data-v-5c160698 {
+  vertical-align: middle;
+  margin-right: 10rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+.tit_tips.data-v-5c160698 {
+  color: #909399;
+}
+.list-cell.data-v-5c160698 {
+  align-items: baseline;
+  padding: 20rpx  30rpx;
+  line-height: 60rpx;
+  position: relative;
+  background: #fff;
+  justify-content: center;
+}
+.list-cell.log-out-btn.data-v-5c160698 {
+  margin-top: 40rpx;
+}
+.list-cell.log-out-btn .cell-tit.data-v-5c160698 {
+  color: #fa436a;
+  text-align: center;
+  margin-right: 0;
+}
+.list-cell.cell-hover.data-v-5c160698 {
+  background: #fafafa;
+}
+.list-cell.b-b.data-v-5c160698:after {
+  left: 30rpx;
+}
+.list-cell.m-t.data-v-5c160698 {
+  margin-top: 16rpx;
+}
+.list-cell .cell-more.data-v-5c160698 {
+  text-align: right;
+  margin-top: 10rpx;
+  height: 60rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: baseline;
+  font-size: 32rpx;
+  color: #909399;
+  margin-left: 10rpx;
+}
+.list-cell .cell-tit.data-v-5c160698 {
+  flex: 1;
+  font-size: 30rpx;
+  color: #303133;
+  margin-right: 10rpx;
+}
+.list-cell .cell-tip.data-v-5c160698 {
+  font-size: 28rpx;
+  color: #909399;
+}
+

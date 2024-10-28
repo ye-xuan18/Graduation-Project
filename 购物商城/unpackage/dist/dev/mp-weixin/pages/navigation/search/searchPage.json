@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "搜索",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "uni-load-more": "/components/uni-load-more/uni-load-more",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "u-back-top": "/uview-ui/components/u-back-top/u-back-top",
+    "m-search": "/components/m-search-revision/m-search-revision",
+    "goods-list": "/components/m-goods-list/list"
+  }
+}

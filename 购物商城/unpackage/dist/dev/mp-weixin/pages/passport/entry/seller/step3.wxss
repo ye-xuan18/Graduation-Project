@@ -1,0 +1,517 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* page {
+  background: #fff;
+} */
+
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/*主题颜色 具体参考   https://ant.design/docs/spec/colors-cn */
+/**微信登录按钮颜色 */
+/**主颜色*/
+/*用于金钱等颜色 */
+/*主题高亮颜色*/
+/*辅助高亮颜色*/
+/*主题高亮背景颜色*/
+/*价格红高亮背景颜色*/
+/*辅助色*/
+.flag-title.data-v-624ab988 {
+    font-size: 42rpx;
+    font-weight: bold;
+}
+.submit.data-v-624ab988,
+.notice.data-v-624ab988 {
+  font-weight: bold;
+  font-size: 28rpx;
+
+  height: 92rpx;
+  text-align: center;
+  letter-spacing: 4rpx;
+  line-height: 92rpx;
+  border-radius: 20rpx;
+}
+.wrapper.data-v-624ab988 {
+  padding:16rpx;
+}
+.light-color.data-v-624ab988 {
+  color: #ff6b35;
+}
+.main-color.data-v-624ab988 {
+  color: #ff3c2a !important;
+}
+.bg-light-color.data-v-624ab988 {
+  background-color: #ff6b35 !important;
+}
+.bg-main-color.data-v-624ab988 {
+  background-color: #ff3c2a !important;
+}
+.bg-linear-gradient.data-v-624ab988 {
+  background-image: linear-gradient(25deg, #fa123b, #ff6b35, #ff9f28, #ffcc03);
+}
+.uni-tabbar .uni-tabbar__icon.data-v-624ab988 {
+  width: 20px;
+  height: 18px;
+}
+.flex.data-v-624ab988 {
+  display: flex;
+}
+.btn.data-v-624ab988 {
+  background-color: #ff6b35;
+  color: #ffffff;
+  border-width: 0px;
+  border: none;
+  border-radius: 44px;
+  height: 44px;
+  box-shadow: none;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 44px;
+  text-align: center;
+}
+.btn.data-v-624ab988::after {
+  border: none;
+}
+.button-hover.data-v-624ab988 {
+  opacity: 0.7;
+}
+.margin.data-v-624ab988 {
+  margin: 10px;
+}
+.tag.data-v-624ab988 {
+  background-color: #f2f2f2;
+  color: #333333;
+  height: 28px;
+  border-radius: 28px;
+  box-shadow: none;
+  font-family: "PingFangSC-Regular", "PingFang SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  text-align: center;
+  width: 90px;
+}
+.c-content.data-v-624ab988 {
+  background-color: #ffffff;
+  border-top: 1px solid #ebeef5;
+  border-bottom: 1px solid #ebeef5;
+}
+.mt-30.data-v-624ab988 {
+  margin-top: 30rpx;
+}
+.border-top.data-v-624ab988 {
+  border-top: 1px solid #ebeef5;
+}
+.describe.data-v-624ab988 {
+  color: #909399;
+  font-size: 24rpx;
+  padding: 30rpx;
+}
+.flex-center.data-v-624ab988 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.flex-a-c.data-v-624ab988 {
+  align-items: center;
+}
+.flex-j-sb.data-v-624ab988 {
+  justify-content: space-between;
+}
+.relative.data-v-624ab988 {
+  position: relative;
+}
+.wes.data-v-624ab988 {
+  /* 多出部分用省略号表示 , 用于一行 */
+  overflow: hidden;
+  word-wrap: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.wes-2.data-v-624ab988 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.wes-3.data-v-624ab988 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.get-center.data-v-624ab988 {
+  padding: 12rpx 30rpx;
+  background: #ff6b35;
+  border-radius: 10rpx;
+  font-size: 24rpx;
+  color: #fff;
+  font-weight: bold;
+  display: inline;
+}
+.column.data-v-624ab988 {
+  padding: 32rpx;
+  margin-bottom: 20rpx;
+  background: #fff;
+}
+.submit.data-v-624ab988 {
+  color: #fff;
+  margin-top: 120rpx;
+  background: rgba(255, 107, 53, 0.8);
+}
+.tips.data-v-624ab988 {
+  color: #999;
+  font-size: 24rpx;
+  line-height: 1.2;
+  margin-top: 10rpx;
+}
+.tips-success.data-v-624ab988 {
+  color: #00a327;
+  font-size: 24rpx;
+}
+

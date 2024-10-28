@@ -1,0 +1,159 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/*主题颜色 具体参考   https://ant.design/docs/spec/colors-cn */
+/**微信登录按钮颜色 */
+/**主颜色*/
+/*用于金钱等颜色 */
+/*主题高亮颜色*/
+/*辅助高亮颜色*/
+/*主题高亮背景颜色*/
+/*价格红高亮背景颜色*/
+/*辅助色*/
+.light-color.data-v-75957482 {
+  color: #ff6b35;
+}
+.main-color.data-v-75957482 {
+  color: #ff3c2a !important;
+}
+.bg-light-color.data-v-75957482 {
+  background-color: #ff6b35 !important;
+}
+.bg-main-color.data-v-75957482 {
+  background-color: #ff3c2a !important;
+}
+.bg-linear-gradient.data-v-75957482 {
+  background-image: linear-gradient(25deg, #fa123b, #ff6b35, #ff9f28, #ffcc03);
+}
+.uni-tabbar .uni-tabbar__icon.data-v-75957482 {
+  width: 20px;
+  height: 18px;
+}
+.flex.data-v-75957482 {
+  display: flex;
+}
+.btn.data-v-75957482 {
+  background-color: #ff6b35;
+  color: #ffffff;
+  border-width: 0px;
+  border: none;
+  border-radius: 44px;
+  height: 44px;
+  box-shadow: none;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 44px;
+  text-align: center;
+}
+.btn.data-v-75957482::after {
+  border: none;
+}
+.button-hover.data-v-75957482 {
+  opacity: 0.7;
+}
+.margin.data-v-75957482 {
+  margin: 10px;
+}
+.tag.data-v-75957482 {
+  background-color: #f2f2f2;
+  color: #333333;
+  height: 28px;
+  border-radius: 28px;
+  box-shadow: none;
+  font-family: "PingFangSC-Regular", "PingFang SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  text-align: center;
+  width: 90px;
+}
+.c-content.data-v-75957482 {
+  background-color: #ffffff;
+  border-top: 1px solid #ebeef5;
+  border-bottom: 1px solid #ebeef5;
+}
+.mt-30.data-v-75957482 {
+  margin-top: 30rpx;
+}
+.border-top.data-v-75957482 {
+  border-top: 1px solid #ebeef5;
+}
+.describe.data-v-75957482 {
+  color: #909399;
+  font-size: 24rpx;
+  padding: 30rpx;
+}
+.flex-center.data-v-75957482 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.flex-a-c.data-v-75957482 {
+  align-items: center;
+}
+.flex-j-sb.data-v-75957482 {
+  justify-content: space-between;
+}
+.relative.data-v-75957482 {
+  position: relative;
+}
+.wes.data-v-75957482 {
+  /* 多出部分用省略号表示 , 用于一行 */
+  overflow: hidden;
+  word-wrap: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.wes-2.data-v-75957482 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.wes-3.data-v-75957482 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.interact-tools.data-v-75957482 {
+  border-left: none;
+  border-right: none;
+}
+.interact-tools .interactBox.data-v-75957482 {
+  height: 156rpx;
+}
+.interact-tools .interact-container.data-v-75957482 {
+  margin: 0 20rpx;
+  background: #fff;
+  border-radius: 20rpx;
+  box-shadow: 0 4rpx 24rpx 0 #f6f6f6;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.interact-tools .interact-container .interact-item-img.data-v-75957482 {
+  width: 52rpx !important;
+  height: 52rpx !important;
+  margin: 0 auto 6rpx auto !important;
+}
+.interact-tools .interact-container image.data-v-75957482 {
+  width: 52rpx;
+  height: 52rpx;
+  margin-bottom: 6rpx;
+}
+.interact-tools .interact-container .interact-item.data-v-75957482 {
+  font-size: 24rpx;
+  width: 25%;
+  height: 160rpx;
+  padding: 30rpx;
+}
+

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "推广分佣",
+  "usingComponents": {
+    "u-swipe-action": "/uview-ui/components/u-swipe-action/u-swipe-action",
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "u-modal": "/uview-ui/components/u-modal/u-modal",
+    "draw-canvas": "/components/m-canvas/index"
+  }
+}

@@ -1,0 +1,282 @@
+<template>
+	<view class="content">
+		<view class="msg-section">
+			<view @click="navSysmessage" class="custom-list-cell b-b">
+				<uni-icons type="sound" size="25"></uni-icons>
+				<text class="cell-tit clamp">系统通知</text>
+				<uni-badge type="error" v-if="notesNumber>0" class="num" :text="notesNumber+''"></uni-badge>
+				<text class="cell-tip" v-if="notes.length>0">{{notes[0].content}}</text>
+				<uni-icons type="right"></uni-icons>
+			</view>
+		</view>
+		<view class="announcement-section">
+			<view @click="navAnnouncement" class="custom-list-cell b-b">
+				<uni-icons type="info" size="25"></uni-icons>
+				<text class="cell-tit clamp">官方资讯</text>
+				<uni-badge type="error" v-if="announcementNumber>0" class="num" :text="announcementNumber+''"></uni-badge>
+				<text class="cell-tip" v-if="announcement.length>0">{{announcement[0].title}}</text>
+				<uni-icons type="right"></uni-icons>
+			</view>
+		</view>
+		<view class="notice-section">
+			<view @click="navNotice" class="custom-list-cell b-b">
+				<uni-icons type="notification" size="25"></uni-icons>
+				<text class="cell-tit clamp">活动通知</text>
+				<uni-badge type="error" v-if="noticeNumber>0" class="num" :text="noticeNumber+''"></uni-badge>
+				<text class="cell-tip" v-if="notice.length>0">{{notice[0].title}}</text>
+				<uni-icons type="right"></uni-icons>
+			</view>
+		</view>
+	</view>
+</template>
+
+<script>
+	import listCell from '@/components/custom-list-cell';
+	import uniBadge from "@/components/uni-badge/uni-badge.vue";
+	import {
+		mapState,
+		mapMutations
+	} from 'vuex';
+	export default {
+		components: {
+			listCell,
+			uniBadge
+		},
+		data() {
+			return {
+				notice: [],
+				noticeNumber:0,
+				announcement: [],
+				announcementNumber:0,
+				notes: [],
+				notesNumber:0,
+				isnotes: false,
+			}
+		},
+		onLoad() {
+			this.inquiryNotes();
+			this.inquiryArticle();
+		},
+		computed: {
+			...mapState(['hasLogin', 'userInfo', 'footPrint'])
+		},
+		methods: {
+			//查询系统通知
+			inquiryNotes: function() {
+				let that = this;
+				let postData = {
+					userUuid: that.userInfo.userUuid
+				}
+				this.$api.request.inquiryNotes(postData, function(res) {
+					if (res.body.status.statusCode === '0') {
+						that.notes = res.body.data.notes;
+						var notesNumber = 0;
+						that.notes.forEach(function(val, index) {
+							if (val.noteStatus==='UNREAD') {
+								notesNumber++;
+							}
+						})
+						that.notesNumber = notesNumber;
+					}
+				});
+			},
+			//查询公告活动
+			inquiryArticle: function() {
+				let that = this;
+				this.$api.request.inquiryArticle({}, function(res) {
+					if (res.body.status.statusCode === '0') {
+						var articleList = res.body.data.articles;
+						var noticeList = [];
+						var noticeNumber = 0;
+						var announcementList = [];
+						var announcementNumber = 0;
+						articleList.forEach(function(val, index) {
+							if (val.articleType == '4') {
+								announcementList.push(val);
+								if(!that.isRead(val.articleUuid)){
+									announcementNumber++;
+								}
+							}
+							if (val.articleType == '5') {
+								noticeList.push(val);
+								if(!that.isRead(val.articleUuid)){
+									noticeNumber++;
+								}
+							}
+						})
+						that.notice = noticeList;
+						that.noticeNumber = noticeNumber;
+						that.announcement = announcementList;
+						that.announcementNumber = announcementNumber;
+					}
+				})
+			},
+			isRead(articleUuid){
+				var isRead = false;
+				var readNotice = uni.getStorageSync('readNotice');
+				if (!readNotice||readNotice.length>0) {
+					for (var key in readNotice) {
+						if (readNotice[key] == articleUuid) {
+							isRead = true;
+						}
+					}
+				}
+				return isRead;
+			},
+			//系统通知
+			navSysmessage: function() {
+				var notes = JSON.stringify(this.notes);
+				notes = encodeURIComponent(notes);
+				uni.navigateTo({
+					url: '/pages/notice/sysmessage?data=' + notes
+				});
+			},
+			//公告
+			navNotice: function() {
+				var notice = JSON.stringify(this.notice);
+				notice = encodeURIComponent(notice);
+				uni.navigateTo({
+					url: '/pages/notice/notice?data=' + notice
+				});
+			},
+			//活动
+			navAnnouncement: function() {
+				var announcement = JSON.stringify(this.announcement);
+				announcement = encodeURIComponent(announcement);
+				uni.navigateTo({
+					url: '/pages/notice/notice?data=' + announcement
+				});
+			}
+		}
+	}
+</script>
+
+<style lang='scss'>
+	page {
+		width: 100%;
+		height: 100%;
+		background-color: $page-color-base;
+	}
+
+	.content {
+		background-color: #ffffff;
+	}
+
+	.top_li {
+		background-color: #ffffff;
+		width: 95%;
+		margin: auto;
+		height: 45px;
+		margin: 20px 10px;
+	}
+
+	.top_i {
+		width: 12%;
+		height: inherit;
+		float: left;
+		margin-right: 5%;
+		position: relative;
+	}
+
+	image {
+		height: 100%;
+		width: 100%;
+	}
+
+	.top_a {
+		height: 45px;
+		float: left;
+		color: $font-color-light;
+		font-size: 15px;
+		padding-bottom: 20px;
+		border-bottom: 0.5rpx solid $border-color-light
+	}
+
+	.icon .custom-list-cell.b-b:after {
+		left: 90upx;
+	}
+
+	.custom-list-cell {
+		display: flex;
+		align-items: baseline;
+		padding: 20upx $page-row-spacing;
+		line-height: 60upx;
+		position: relative;
+
+		&.cell-hover {
+			background: $page-color-light;
+		}
+
+		&.b-b:after {
+			left: 30upx;
+		}
+
+		.cell-icon {
+			align-self: center;
+			width: 56upx;
+			max-height: 60upx;
+			font-size: 38upx;
+		}
+
+		.cell-more {
+			align-self: center;
+			font-size: 30upx;
+			color: $font-color-base;
+			margin-left: $uni-spacing-row-sm;
+		}
+
+		.cell-tit {
+			flex: 1;
+			font-size: $font-base;
+			color: $font-color-dark;
+			margin-right: 10upx;
+
+			.num {
+				background: $uni-color-error;
+				color: #ffffff;
+				position: absolute;
+			}
+		}
+
+		.cell-tip {
+			text-align: right;
+			font-size: $font-sm+2upx;
+			color: $font-color-light;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+			overflow: hidden;
+
+		}
+	}
+
+	.msg-section {
+		.uni-badge {
+			position: absolute;
+			top: 2upx;
+			left: 50upx;
+			background: $uni-color-error;
+			color: #ffffff;
+		}
+	}
+
+	.announcement-section {
+		.uni-badge {
+			position: absolute;
+			top: 2upx;
+			left: 50upx;
+			background: $uni-color-error;
+			color: #ffffff;
+		}
+	}
+
+	.notice-section {
+		.uni-badge {
+			position: absolute;
+			top: 2upx;
+			left: 50upx;
+			background: $base-color;
+			color: #ffffff;
+		}
+	}
+	
+</style>

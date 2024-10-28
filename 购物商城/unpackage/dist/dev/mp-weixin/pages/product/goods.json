@@ -1,0 +1,24 @@
+{
+  "backgroundColor": "#fff",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "popups": "/components/popups/popups",
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "shares": "/components/m-share/index",
+    "promotion-layout": "/pages/product/product/promotion/-promotion",
+    "promotion-details-layout": "/pages/product/product/promotion/-promotion-details",
+    "promotion-assemble-layout": "/pages/product/product/promotion/-promotion-assemble-promotions",
+    "promotion-assemble-list-layout": "/pages/product/product/promotion/-promotion-assemble-list",
+    "promotion-coupon": "/pages/product/product/promotion/-promotion-coupon",
+    "goods-intro": "/pages/product/product/goods/-goods-intro",
+    "goods-recommend": "/pages/product/product/goods/-goods-recommend",
+    "store-layout": "/pages/product/product/shop/-shop",
+    "evaluation": "/pages/product/product/evaluation/-evaluation",
+    "goods-swiper": "/pages/product/product/goods/-goods-swiper",
+    "popup-goods": "/components/m-buy/goods",
+    "popup-address": "/pages/product/product/popup/address",
+    "take-down-form-sale-goods": "/components/m-take-down-sale-goods/index"
+  }
+}

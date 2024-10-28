@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "goods-template": "/components/m-goods-list/list"
+  }
+}

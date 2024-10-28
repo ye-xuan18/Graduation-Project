@@ -1,0 +1,423 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/*主题颜色 具体参考   https://ant.design/docs/spec/colors-cn */
+/**微信登录按钮颜色 */
+/**主颜色*/
+/*用于金钱等颜色 */
+/*主题高亮颜色*/
+/*辅助高亮颜色*/
+/*主题高亮背景颜色*/
+/*价格红高亮背景颜色*/
+/*辅助色*/
+.light-color {
+  color: #ff6b35;
+}
+.main-color {
+  color: #ff3c2a !important;
+}
+.bg-light-color {
+  background-color: #ff6b35 !important;
+}
+.bg-main-color {
+  background-color: #ff3c2a !important;
+}
+.bg-linear-gradient {
+  background-image: linear-gradient(25deg, #fa123b, #ff6b35, #ff9f28, #ffcc03);
+}
+.uni-tabbar .uni-tabbar__icon {
+  width: 20px;
+  height: 18px;
+}
+.flex {
+  display: flex;
+}
+.btn {
+  background-color: #ff6b35;
+  color: #ffffff;
+  border-width: 0px;
+  border: none;
+  border-radius: 44px;
+  height: 44px;
+  box-shadow: none;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 44px;
+  text-align: center;
+}
+.btn::after {
+  border: none;
+}
+.button-hover {
+  opacity: 0.7;
+}
+.margin {
+  margin: 10px;
+}
+.tag {
+  background-color: #f2f2f2;
+  color: #333333;
+  height: 28px;
+  border-radius: 28px;
+  box-shadow: none;
+  font-family: "PingFangSC-Regular", "PingFang SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  text-align: center;
+  width: 90px;
+}
+.c-content {
+  background-color: #ffffff;
+  border-top: 1px solid #ebeef5;
+  border-bottom: 1px solid #ebeef5;
+}
+.mt-30 {
+  margin-top: 30rpx;
+}
+.border-top {
+  border-top: 1px solid #ebeef5;
+}
+.describe {
+  color: #909399;
+  font-size: 24rpx;
+  padding: 30rpx;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.flex-a-c {
+  align-items: center;
+}
+.flex-j-sb {
+  justify-content: space-between;
+}
+.relative {
+  position: relative;
+}
+.wes {
+  /* 多出部分用省略号表示 , 用于一行 */
+  overflow: hidden;
+  word-wrap: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.wes-2 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.wes-3 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.goods-item-view {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10rpx 30rpx;
+}
+.goods-item-view .goods-img {
+  flex: 1;
+}
+.goods-item-view .goods-info {
+  padding-left: 30rpx;
+  flex: 3;
+}
+.goods-item-view .goods-info .goods-title {
+  margin-bottom: 10rpx;
+  color: #303133;
+}
+.goods-item-view .goods-info .goods-specs {
+  font-size: 24rpx;
+  margin-bottom: 10rpx;
+  color: #cccccc;
+}
+.goods-item-view .goods-info .goods-price {
+  font-size: 28rpx;
+  margin-bottom: 10rpx;
+  color: #ff5a10;
+}
+.goods-item-view .goods-num {
+  text-align: center;
+  flex: 1;
+  width: 60rpx;
+  color: #ff3c2a;
+}
+.goods-item-view .goods-num > .good-complaint {
+  margin-top: 10rpx;
+}
+.seller-view {
+  background-color: #fff;
+  margin: 20rpx 0rpx;
+}
+.seller-view .seller-info {
+  height: 70rpx;
+  padding: 0 20rpx;
+}
+.seller-view .seller-info .seller-name {
+  font-size: 33rpx;
+  font-weight: 600;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  height: 90rpx;
+}
+.seller-view .seller-info .seller-name image {
+  width: 32rpx;
+  height: 30rpx;
+}
+.seller-view .seller-info .seller-name .name {
+  margin-left: 15rpx;
+  margin-top: -2rpx;
+  font-size: 28rpx;
+  flex: 1;
+}
+.seller-view .seller-info .seller-name .status {
+  font-size: 26rpx;
+  color: #ff6262;
+}
+.seller-view .seller-info .order-sn {
+  color: #ff0000;
+}
+.seller-view .btn-view {
+  margin-bottom: 60rpx;
+  margin-right: 30rpx;
+}
+.seller-view .btn-view .description {
+  color: #909399;
+  size: 25rpx;
+}
+.seller-view .btn-view .description .price {
+  color: #ff0000;
+}
+.seller-view .btn-view .right-btn {
+  float: right;
+}
+.empty {
+  width: 100%;
+}
+.customer-service {
+  background: #ededed;
+  width: 48%;
+  margin: 0 1%;
+  height: 55rpx;
+  line-height: 55rpx;
+  margin-bottom: 10rpx;
+  text-align: center;
+  font-size: 24rpx;
+  border-radius: 10rpx;
+}
+.customer-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.logistics-view {
+  justify-content: space-between;
+  padding: 30rpx !important;
+  margin: 0 !important;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+.order-status {
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  font-size: 36rpx;
+  margin-top: 40rpx;
+}
+.order-status > ._div {
+  font-size: 24rpx;
+  margin-top: 10rpx;
+}
+.logistics-List-title {
+  margin-bottom: 10rpx;
+  font-size: 26rpx;
+}
+.logistics-List-time {
+  font-size: 24rpx;
+  color: #999;
+}
+.info-detail {
+  margin-right: 30rpx;
+  color: #333;
+}
+.order-view {
+  margin: 0 !important;
+  border-radius: 0 !important;
+  width: 100%;
+  height: 200rpx;
+  padding: 0 !important;
+  background-image: linear-gradient(to right, #ff6b35 0%, #ff9f28 100%) !important;
+}
+page,
+.content {
+  background: #f1f1f1;
+  height: 100%;
+}
+.info-line {
+  align-items: center;
+  display: flex;
+  border-radius: 30rpx;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 100%;
+  height: 110rpx;
+  color: #333333;
+  font-size: 28rpx;
+  border-bottom: 1rpx solid #eeeeee;
+}
+.info-line .info-title {
+  margin: 0 30rpx;
+  padding: 16rpx 0rpx;
+}
+.seller-view {
+  margin: 20rpx 0;
+  padding: 15rpx 0;
+  border-radius: 30rpx;
+}
+.address-title {
+  font-size: 26rpx;
+  font-weight: bold;
+}
+.address-title > ._span {
+  margin-right: 20rpx;
+}
+.info-view {
+  display: flex;
+  margin: 0 0 20rpx 0;
+  border-radius: 30rpx;
+  flex-direction: row;
+  padding: 15rpx 30rpx;
+  margin-bottom: 20rpx;
+  background-color: #fff;
+}
+.info-view .address-view {
+  display: flex;
+  flex-direction: row;
+  padding: 16rpx 0;
+}
+.info-view .address-view .address {
+  color: #909399;
+  overflow: hidden;
+  line-height: 1.75;
+  font-size: 22rpx;
+}
+.info-view .order-info-view {
+  line-height: 60rpx;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 10rpx 0rpx;
+}
+.info-view .order-info-view .title {
+  color: #666;
+  width: 140rpx;
+  font-size: 24rpx;
+  font-weight: 600;
+  flex: 3;
+  min-width: 160rpx;
+}
+.info-view .order-info-view .value {
+  color: #666;
+  font-size: 24rpx;
+  flex: 10;
+}
+.info-view .order-info-view .copy {
+  font-size: 20rpx;
+  color: #333;
+  border: 1px solid #dddddd;
+  margin-left: 30rpx;
+}
+.info-view .invoice-info-view {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10rpx 0rpx;
+}
+.info-view .invoice-info-view .invoice-title {
+  width: 550rpx;
+  font-size: 28rpx;
+  color: #333333;
+}
+.info-view .invoice-info-view .value {
+  color: #909399;
+}
+.verificationCode {
+  font-weight: bold;
+  letter-spacing: 2rpx;
+}
+.bottom_view {
+  width: 100%;
+  height: 100rpx;
+  background-color: #ffffff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.bottom_view .btn-view {
+  padding: 0 30rpx;
+  line-height: 100rpx;
+  font-size: 26rpx;
+}
+.bottom_view .btn-view .description {
+  color: #909399;
+  size: 25rpx;
+}
+.bottom_view .btn-view .description .price {
+  color: #ff3c2a;
+}
+.bottom_view .cancel-btn {
+  color: #999999;
+  border-color: #999999;
+  margin-left: 15rpx;
+  height: 60rpx;
+}
+.cancel-popup .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 15rpx 0rpx;
+}
+.cancel-popup .body {
+  padding: 30rpx;
+}
+.cancel-popup .body .title {
+  font-weight: 600;
+}
+.cancel-popup .body .value {
+  display: flex;
+  flex-direction: column;
+}
+.cancel-popup .body .value .radio-view {
+  margin: 10rpx 0rpx;
+}
+.cancel-popup .footer {
+  text-align: center;
+}
+.address-line-height {
+  line-height: 1.75;
+}
+.seller-name > .name {
+  flex: 10 !important;
+}
+.seller-name > .status {
+  flex: 2;
+}
+

@@ -1,0 +1,233 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/*主题颜色 具体参考   https://ant.design/docs/spec/colors-cn */
+/**微信登录按钮颜色 */
+/**主颜色*/
+/*用于金钱等颜色 */
+/*主题高亮颜色*/
+/*辅助高亮颜色*/
+/*主题高亮背景颜色*/
+/*价格红高亮背景颜色*/
+/*辅助色*/
+.light-color.data-v-95cf93f4 {
+  color: #ff6b35;
+}
+.main-color.data-v-95cf93f4 {
+  color: #ff3c2a !important;
+}
+.bg-light-color.data-v-95cf93f4 {
+  background-color: #ff6b35 !important;
+}
+.bg-main-color.data-v-95cf93f4 {
+  background-color: #ff3c2a !important;
+}
+.bg-linear-gradient.data-v-95cf93f4 {
+  background-image: linear-gradient(25deg, #fa123b, #ff6b35, #ff9f28, #ffcc03);
+}
+.uni-tabbar .uni-tabbar__icon.data-v-95cf93f4 {
+  width: 20px;
+  height: 18px;
+}
+.flex.data-v-95cf93f4 {
+  display: flex;
+}
+.btn.data-v-95cf93f4 {
+  background-color: #ff6b35;
+  color: #ffffff;
+  border-width: 0px;
+  border: none;
+  border-radius: 44px;
+  height: 44px;
+  box-shadow: none;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 44px;
+  text-align: center;
+}
+.btn.data-v-95cf93f4::after {
+  border: none;
+}
+.button-hover.data-v-95cf93f4 {
+  opacity: 0.7;
+}
+.margin.data-v-95cf93f4 {
+  margin: 10px;
+}
+.tag.data-v-95cf93f4 {
+  background-color: #f2f2f2;
+  color: #333333;
+  height: 28px;
+  border-radius: 28px;
+  box-shadow: none;
+  font-family: "PingFangSC-Regular", "PingFang SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  text-align: center;
+  width: 90px;
+}
+.c-content.data-v-95cf93f4 {
+  background-color: #ffffff;
+  border-top: 1px solid #ebeef5;
+  border-bottom: 1px solid #ebeef5;
+}
+.mt-30.data-v-95cf93f4 {
+  margin-top: 30rpx;
+}
+.border-top.data-v-95cf93f4 {
+  border-top: 1px solid #ebeef5;
+}
+.describe.data-v-95cf93f4 {
+  color: #909399;
+  font-size: 24rpx;
+  padding: 30rpx;
+}
+.flex-center.data-v-95cf93f4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.flex-a-c.data-v-95cf93f4 {
+  align-items: center;
+}
+.flex-j-sb.data-v-95cf93f4 {
+  justify-content: space-between;
+}
+.relative.data-v-95cf93f4 {
+  position: relative;
+}
+.wes.data-v-95cf93f4 {
+  /* 多出部分用省略号表示 , 用于一行 */
+  overflow: hidden;
+  word-wrap: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.wes-2.data-v-95cf93f4 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.wes-3.data-v-95cf93f4 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.u-tag.data-v-95cf93f4 {
+  box-sizing: border-box;
+  align-items: center;
+  border-radius: 6rpx;
+  display: inline-block;
+  line-height: 1;
+}
+.u-size-default.data-v-95cf93f4 {
+  font-size: 22rpx;
+  padding: 12rpx 22rpx;
+}
+.u-size-mini.data-v-95cf93f4 {
+  font-size: 20rpx;
+  padding: 6rpx 12rpx;
+}
+.u-mode-light-primary.data-v-95cf93f4 {
+  background-color: #ecf5ff;
+  color: #2979ff;
+  border: 1px solid #a0cfff;
+}
+.u-mode-light-success.data-v-95cf93f4 {
+  background-color: #dbf1e1;
+  color: #19be6b;
+  border: 1px solid #71d5a1;
+}
+.u-mode-light-error.data-v-95cf93f4 {
+  background-color: #fef0f0;
+  color: #fa3534;
+  border: 1px solid #fab6b6;
+}
+.u-mode-light-warning.data-v-95cf93f4 {
+  background-color: #fdf6ec;
+  color: #ff9900;
+  border: 1px solid #fcbd71;
+}
+.u-mode-light-info.data-v-95cf93f4 {
+  background-color: #f4f4f5;
+  color: #909399;
+  border: 1px solid #c8c9cc;
+}
+.u-mode-dark-primary.data-v-95cf93f4 {
+  background-color: #2979ff;
+  color: #FFFFFF;
+}
+.u-mode-dark-success.data-v-95cf93f4 {
+  background-color: #19be6b;
+  color: #FFFFFF;
+}
+.u-mode-dark-error.data-v-95cf93f4 {
+  background-color: #fa3534;
+  color: #FFFFFF;
+}
+.u-mode-dark-warning.data-v-95cf93f4 {
+  background-color: #ff9900;
+  color: #FFFFFF;
+}
+.u-mode-dark-info.data-v-95cf93f4 {
+  background-color: #909399;
+  color: #FFFFFF;
+}
+.u-mode-plain-primary.data-v-95cf93f4 {
+  background-color: #FFFFFF;
+  color: #2979ff;
+  border: 1px solid #2979ff;
+}
+.u-mode-plain-success.data-v-95cf93f4 {
+  background-color: #FFFFFF;
+  color: #19be6b;
+  border: 1px solid #19be6b;
+}
+.u-mode-plain-error.data-v-95cf93f4 {
+  background-color: #FFFFFF;
+  color: #fa3534;
+  border: 1px solid #fa3534;
+}
+.u-mode-plain-warning.data-v-95cf93f4 {
+  background-color: #FFFFFF;
+  color: #ff9900;
+  border: 1px solid #ff9900;
+}
+.u-mode-plain-info.data-v-95cf93f4 {
+  background-color: #FFFFFF;
+  color: #909399;
+  border: 1px solid #909399;
+}
+.u-disabled.data-v-95cf93f4 {
+  opacity: 0.55;
+}
+.u-shape-circle.data-v-95cf93f4 {
+  border-radius: 100rpx;
+}
+.u-shape-circleRight.data-v-95cf93f4 {
+  border-radius: 0 100rpx 100rpx 0;
+}
+.u-shape-circleLeft.data-v-95cf93f4 {
+  border-radius: 100rpx 0 0 100rpx;
+}
+.u-close-icon.data-v-95cf93f4 {
+  margin-left: 14rpx;
+  font-size: 22rpx;
+  color: #19be6b;
+}
+.u-icon-wrap.data-v-95cf93f4 {
+  display: inline-flex;
+  -webkit-transform: scale(0.86);
+          transform: scale(0.86);
+}
+

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "u-swiper": "/uview-ui/components/u-swiper/u-swiper",
+    "u-loading": "/uview-ui/components/u-loading/u-loading"
+  },
+  "component": true
+}

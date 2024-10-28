@@ -1,0 +1,343 @@
+<template>
+	<view class="content">
+		<view class="video-wrapper">
+			<video 
+				class="video"
+				:src="detailData.content" 
+				controls
+				objectFit="fill"
+				:autoplay="false"
+			></video>
+		</view>
+		<scroll-view class="scroll" scroll-y>
+			<view class="scroll-content">
+				<view class="introduce-section">
+					<text class="title">{{detailData.title}}</text>
+				</view>
+				
+				<view class="container" v-show="loading === false">
+					<!-- 推荐 -->
+					<view class="s-header">
+						<text class="tit">相关推荐</text>
+					</view>
+					<view class="rec-section" v-for="item in newsList" :key="item.articleUuid">
+						<view class="rec-item" @click="navToDetails(item)">
+							<view class="left">
+								<text class="title">{{item.title}}</text>
+								<view class="bot">
+									<text class="author">{{applicationConfig.applicationName}}</text>
+									<text class="time">{{item.publishTime}}</text>
+								</view>
+							</view>
+							<view class="right">
+								<image class="img" :src="item.coverImageUrl" mode="aspectFill"></image>
+							</view>
+						</view>
+					</view>
+					
+				</view>
+				<!-- 加载图标 -->
+				<customLoading class="custom-loading" v-if="loading"></customLoading>
+			</view>
+		</scroll-view>
+		
+	</view>
+</template>
+
+<script>
+	import json from '@/Json';
+	import customLoading from '@/components/custom-loading/custom-loading';
+	import {
+		mapState,
+		mapMutations
+	} from 'vuex';
+	export default {
+		components: {
+			customLoading
+		},
+		data() {
+			return {
+				loading: true,
+				detailData: {},
+				newsList: [],
+				evaList: [],
+			}
+		},
+		computed: {
+			...mapState(['hasLogin', 'userInfo', 'footPrint', 'applicationConfig'])
+		},
+		onLoad(options){
+			var id = options.id;
+			this.loadNewsDetail(id);
+			this.loadNewsList();
+		},
+		methods: {
+			loadNewsList(tagName){
+				let that = this;
+				this.$api.request.articleList({
+					tagDTO:{
+						tagName: tagName
+					},
+					startIndex:0,
+					pageSize:5
+				}, function(res) {
+					if (res.body.status.statusCode === '0') {
+						that.newsList = res.body.data.articles;
+						that.loading = false;
+					}
+				})
+			},
+			//获取文章详情
+			loadNewsDetail(id){
+				let that = this;
+				this.$api.request.articleInfo({
+					articleUuid:id
+				}, function(res) {
+					if (res.body.status.statusCode === '0') {
+						that.detailData = res.body.data;
+						that.loadNewsList(that.detailData.tagDTO.tagName);
+					}
+				})
+			},
+			//新闻详情
+			navToDetails(item){
+				let url = '';
+				if(item.articleType==='1' && item.linkType=='自定义内容')	
+					url = '/pages/content/details?id='+item.articleUuid;
+				if(item.articleType==='1' && item.linkType=='外部链接')
+					url = '/pages/content/webView?src='+item.content;
+				if(item.articleType==='2' || item.articleType==='3')
+					url = '/pages/content/videoDetails?id='+item.articleUuid;
+				uni.navigateTo({
+					url:url
+				})
+			}
+		}
+	}
+</script>
+
+<style lang="scss">
+	page{
+		height: 100%;
+	}
+	.content{
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+		background: #fff;
+	}
+	.video-wrapper{
+		height: 422upx;
+		
+		.video{
+			width: 100%;
+			height: 100%;
+		}
+	}
+	.scroll{
+		flex: 1;
+		position: relative;
+		background-color: $page-color-base;
+		height: 0;
+	}
+	.scroll-content{
+		display: flex;
+		flex-direction: column;
+	}
+	/* 简介 */
+	.introduce-section{
+		display: flex;
+		flex-direction: column;
+		padding: 20upx 30upx;
+		background: #fff;
+		line-height: 1.5;
+		
+		.title{
+			font-size: 36upx;
+			color: $font-color-dark;
+			margin-bottom: 16upx;
+		}
+		.introduce{
+			display: flex;
+			font-size: 26upx;
+			color: $font-color-light;
+			
+			.show-icon{
+				font-size: 34upx;
+				padding-left: 10upx;
+			}
+		}
+	}
+	.custom-loading{
+		transform: translateY(140upx);
+	}
+	.s-header{
+		padding: 20upx 30upx;
+		font-size: 30upx;
+		color: $font-color-dark;
+		background: #fff;
+		margin-top: 16upx;
+		
+		&:before{
+			content: '';
+			width: 0;
+			height: 40upx;
+			margin-right: 24upx;
+			border-left: 6upx solid $border-color-primary;
+		}
+	}
+	/* 推荐列表 */
+	.rec-section{
+		background-color: #ffffff;
+		.rec-item{
+			display: flex;
+			padding: 20upx 30upx;
+			position: relative;
+			&:after{
+				content: '';
+				position: absolute;
+				left: 30upx;
+				right: 0;
+				bottom: 0;
+				height: 0;
+				border-bottom: 1px solid $border-color-dark;
+				transform: scaleY(50%);
+			}
+		}
+		.left{
+			flex: 1;
+			padding-right: 10upx;
+			overflow: hidden;
+			position: relative;
+			.title{
+				display: -webkit-box;
+				-webkit-box-orient: vertical;
+				-webkit-line-clamp: 2;
+				overflow: hidden;
+				font-size: 32upx;
+				color: $font-color-dark;
+				line-height: 44upx;
+			}
+			.bot{
+				position: absolute;
+				left: 0;
+				bottom: 4upx;
+				font-size: 26upx;
+				color: $font-color-light;
+			}
+			.time{
+				margin-left: 20upx;
+			}
+		}
+		.right{
+			width: 220upx;
+			height: 140upx;
+			flex-shrink: 0;
+			position: relative;
+			.img{
+				width: 100%;
+				height: 100%;
+			}
+			.video-tip{
+				position: absolute;
+				left: 0;
+				top: 0;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 100%;
+				height: 100%;
+				background-color: rgba(0,0,0,.3);
+				image{
+					width: 60upx;
+					height:60upx; 
+				}
+			}
+		}
+	}
+	/* 评论 */
+	.evalution{
+		display:flex;
+		flex-direction:column;
+		background: #fff;
+		padding: 20upx 0;
+	}
+	
+	.eva-item{
+		display:flex;
+		padding: 20upx 30upx;
+		position: relative;
+		image{
+			width: 60upx;
+			height: 60upx;
+			border-radius: 50px;
+			flex-shrink: 0;
+			margin-right: 24upx;
+		}
+		&:after{
+			content: '';
+			position: absolute;
+			left: 30upx;
+			bottom: 0;
+			right: 0;
+			height: 0;
+			border-bottom: 1px solid $border-color-dark;
+			transform: translateY(50%);
+		}
+		&:last-child:after{
+			border: 0;
+		}
+	}
+	.eva-right{
+		display:flex;
+		flex-direction:column;
+		flex: 1;
+		font-size: 26upx;
+		color: $font-color-light;
+		position:relative;
+		.zan-box{
+			display:flex;
+			align-items:base-line;
+			position:absolute;
+			top: 10upx;
+			right: 10upx;
+		}
+		.content{
+			font-size: 28upx;
+			color: $font-color-dark;
+			padding-top:20upx;
+		}
+	}
+	
+	/* 底部 */
+	.bottom{
+		flex-shrink: 0;
+		display: flex;
+		align-items: center;
+		height: 90upx;
+		padding: 0 30upx;
+		box-shadow: 0 -1px 3px rgba(0,0,0,.04); 
+		position: relative;
+		z-index: 1;
+		
+		.input-box{
+			display: flex;
+			align-items: center;
+			flex: 1;
+			height: 60upx;
+			background: #f2f3f3;
+			border-radius: 100px;
+			padding-left: 30upx;
+			
+			.icon-huifu{
+				font-size: 28upx;
+				color: $font-color-light;
+			}
+			.input{
+				padding: 0 20upx;
+				font-size: 28upx;
+				color: $font-color-dark;
+			}
+		}
+	}
+</style>

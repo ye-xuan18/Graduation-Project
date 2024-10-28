@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "营业执照",
+  "usingComponents": {
+    "u-image": "/uview-ui/components/u-image/u-image"
+  }
+}

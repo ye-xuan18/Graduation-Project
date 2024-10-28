@@ -1,0 +1,203 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/*主题颜色 具体参考   https://ant.design/docs/spec/colors-cn */
+/**微信登录按钮颜色 */
+/**主颜色*/
+/*用于金钱等颜色 */
+/*主题高亮颜色*/
+/*辅助高亮颜色*/
+/*主题高亮背景颜色*/
+/*价格红高亮背景颜色*/
+/*辅助色*/
+.light-color.data-v-0d33af60 {
+  color: #ff6b35;
+}
+.main-color.data-v-0d33af60 {
+  color: #ff3c2a !important;
+}
+.bg-light-color.data-v-0d33af60 {
+  background-color: #ff6b35 !important;
+}
+.bg-main-color.data-v-0d33af60 {
+  background-color: #ff3c2a !important;
+}
+.bg-linear-gradient.data-v-0d33af60 {
+  background-image: linear-gradient(25deg, #fa123b, #ff6b35, #ff9f28, #ffcc03);
+}
+.uni-tabbar .uni-tabbar__icon.data-v-0d33af60 {
+  width: 20px;
+  height: 18px;
+}
+.flex.data-v-0d33af60 {
+  display: flex;
+}
+.btn.data-v-0d33af60 {
+  background-color: #ff6b35;
+  color: #ffffff;
+  border-width: 0px;
+  border: none;
+  border-radius: 44px;
+  height: 44px;
+  box-shadow: none;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 44px;
+  text-align: center;
+}
+.btn.data-v-0d33af60::after {
+  border: none;
+}
+.button-hover.data-v-0d33af60 {
+  opacity: 0.7;
+}
+.margin.data-v-0d33af60 {
+  margin: 10px;
+}
+.tag.data-v-0d33af60 {
+  background-color: #f2f2f2;
+  color: #333333;
+  height: 28px;
+  border-radius: 28px;
+  box-shadow: none;
+  font-family: "PingFangSC-Regular", "PingFang SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  text-align: center;
+  width: 90px;
+}
+.c-content.data-v-0d33af60 {
+  background-color: #ffffff;
+  border-top: 1px solid #ebeef5;
+  border-bottom: 1px solid #ebeef5;
+}
+.mt-30.data-v-0d33af60 {
+  margin-top: 30rpx;
+}
+.border-top.data-v-0d33af60 {
+  border-top: 1px solid #ebeef5;
+}
+.describe.data-v-0d33af60 {
+  color: #909399;
+  font-size: 24rpx;
+  padding: 30rpx;
+}
+.flex-center.data-v-0d33af60 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.flex-a-c.data-v-0d33af60 {
+  align-items: center;
+}
+.flex-j-sb.data-v-0d33af60 {
+  justify-content: space-between;
+}
+.relative.data-v-0d33af60 {
+  position: relative;
+}
+.wes.data-v-0d33af60 {
+  /* 多出部分用省略号表示 , 用于一行 */
+  overflow: hidden;
+  word-wrap: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.wes-2.data-v-0d33af60 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.wes-3.data-v-0d33af60 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.u-upload.data-v-0d33af60 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.u-list-item.data-v-0d33af60 {
+  width: 200rpx;
+  height: 200rpx;
+  overflow: hidden;
+  margin: 10rpx;
+  background: #f4f5f6;
+  position: relative;
+  border-radius: 10rpx;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.u-preview-wrap.data-v-0d33af60 {
+  border: 1px solid #ebecee;
+}
+.u-add-wrap.data-v-0d33af60 {
+  flex-direction: column;
+  color: #606266;
+  font-size: 28rpx;
+}
+.u-add-tips.data-v-0d33af60 {
+  margin-top: 20rpx;
+  line-height: 40rpx;
+}
+.u-add-wrap__hover.data-v-0d33af60 {
+  background-color: #ebecee;
+}
+.u-preview-image.data-v-0d33af60 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 10rpx;
+}
+.u-delete-icon.data-v-0d33af60 {
+  position: absolute;
+  top: 10rpx;
+  right: 10rpx;
+  z-index: 10;
+  background-color: #fa3534;
+  border-radius: 100rpx;
+  width: 44rpx;
+  height: 44rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.u-icon.data-v-0d33af60 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.u-progress.data-v-0d33af60 {
+  position: absolute;
+  bottom: 10rpx;
+  left: 8rpx;
+  right: 8rpx;
+  z-index: 9;
+  width: auto;
+}
+.u-error-btn.data-v-0d33af60 {
+  color: #ffffff;
+  background-color: #fa3534;
+  font-size: 20rpx;
+  padding: 4px 0;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  line-height: 1;
+}
+

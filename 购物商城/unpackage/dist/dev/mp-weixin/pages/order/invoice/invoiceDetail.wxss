@@ -1,0 +1,209 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/*主题颜色 具体参考   https://ant.design/docs/spec/colors-cn */
+/**微信登录按钮颜色 */
+/**主颜色*/
+/*用于金钱等颜色 */
+/*主题高亮颜色*/
+/*辅助高亮颜色*/
+/*主题高亮背景颜色*/
+/*价格红高亮背景颜色*/
+/*辅助色*/
+.light-color.data-v-43dfcf12 {
+  color: #ff6b35;
+}
+.main-color.data-v-43dfcf12 {
+  color: #ff3c2a !important;
+}
+.bg-light-color.data-v-43dfcf12 {
+  background-color: #ff6b35 !important;
+}
+.bg-main-color.data-v-43dfcf12 {
+  background-color: #ff3c2a !important;
+}
+.bg-linear-gradient.data-v-43dfcf12 {
+  background-image: linear-gradient(25deg, #fa123b, #ff6b35, #ff9f28, #ffcc03);
+}
+.uni-tabbar .uni-tabbar__icon.data-v-43dfcf12 {
+  width: 20px;
+  height: 18px;
+}
+.flex.data-v-43dfcf12 {
+  display: flex;
+}
+.btn.data-v-43dfcf12 {
+  background-color: #ff6b35;
+  color: #ffffff;
+  border-width: 0px;
+  border: none;
+  border-radius: 44px;
+  height: 44px;
+  box-shadow: none;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 44px;
+  text-align: center;
+}
+.btn.data-v-43dfcf12::after {
+  border: none;
+}
+.button-hover.data-v-43dfcf12 {
+  opacity: 0.7;
+}
+.margin.data-v-43dfcf12 {
+  margin: 10px;
+}
+.tag.data-v-43dfcf12 {
+  background-color: #f2f2f2;
+  color: #333333;
+  height: 28px;
+  border-radius: 28px;
+  box-shadow: none;
+  font-family: "PingFangSC-Regular", "PingFang SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  text-align: center;
+  width: 90px;
+}
+.c-content.data-v-43dfcf12 {
+  background-color: #ffffff;
+  border-top: 1px solid #ebeef5;
+  border-bottom: 1px solid #ebeef5;
+}
+.mt-30.data-v-43dfcf12 {
+  margin-top: 30rpx;
+}
+.border-top.data-v-43dfcf12 {
+  border-top: 1px solid #ebeef5;
+}
+.describe.data-v-43dfcf12 {
+  color: #909399;
+  font-size: 24rpx;
+  padding: 30rpx;
+}
+.flex-center.data-v-43dfcf12 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.flex-a-c.data-v-43dfcf12 {
+  align-items: center;
+}
+.flex-j-sb.data-v-43dfcf12 {
+  justify-content: space-between;
+}
+.relative.data-v-43dfcf12 {
+  position: relative;
+}
+.wes.data-v-43dfcf12 {
+  /* 多出部分用省略号表示 , 用于一行 */
+  overflow: hidden;
+  word-wrap: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.wes-2.data-v-43dfcf12 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.wes-3.data-v-43dfcf12 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.block-item.data-v-43dfcf12 {
+  height: 217rpx;
+  width: 100%;
+  position: relative;
+}
+.block-item > view.data-v-43dfcf12 {
+  color: #ff6262;
+}
+.block-item > view.data-v-43dfcf12:first-child {
+  text-align: center;
+  line-height: 3em;
+}
+.block-item > view:first-child > view.data-v-43dfcf12:first-child {
+  position: relative;
+}
+.block-item > view:first-child > view:first-child .circle.data-v-43dfcf12 {
+  width: 166rpx;
+  height: 65rpx;
+  border: 1px solid #ff6262;
+  border-radius: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+.block-item > view:first-child > view:first-child .circle view.data-v-43dfcf12 {
+  width: 130rpx;
+  height: 40rpx;
+  border: 1px solid #ff6262;
+  border-radius: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+}
+.block-item > view:first-child > view.data-v-43dfcf12:last-child {
+  font-size: 40rpx;
+}
+.common-msg.data-v-43dfcf12 {
+  flex-direction: row;
+  padding: 20rpx;
+  height: 118rpx;
+  background-color: #ffffff;
+  margin-bottom: 20rpx;
+}
+.common-msg > view.data-v-43dfcf12 {
+  width: 50%;
+  text-align: center;
+  color: #666666;
+  line-height: 1.5em;
+}
+.common-msg > view view.data-v-43dfcf12 {
+  font-size: 24rpx;
+}
+.common-msg > view .invoice_status.data-v-43dfcf12 {
+  color: #ff6262;
+}
+.common-msg > view.data-v-43dfcf12:first-child {
+  border-right: 1px solid #eee;
+}
+.show-pic.data-v-43dfcf12 {
+  text-align: center;
+  margin-top: 40rpx;
+}
+.show-pic image.data-v-43dfcf12 {
+  width: 27rpx;
+  height: 27rpx;
+  margin-right: 10rpx;
+  vertical-align: middle;
+}
+.show-pic text.data-v-43dfcf12 {
+  color: #ff3c2a;
+  font-size: 24rpx;
+}
+.u-cell.data-v-43dfcf12 {
+  padding: 35rpx 20rpx;
+  height: 110rpx;
+  color: #333333;
+}
+

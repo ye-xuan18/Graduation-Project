@@ -1,0 +1,342 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/*主题颜色 具体参考   https://ant.design/docs/spec/colors-cn */
+/**微信登录按钮颜色 */
+/**主颜色*/
+/*用于金钱等颜色 */
+/*主题高亮颜色*/
+/*辅助高亮颜色*/
+/*主题高亮背景颜色*/
+/*价格红高亮背景颜色*/
+/*辅助色*/
+.light-color.data-v-64fc40c3 {
+  color: #ff6b35;
+}
+.main-color.data-v-64fc40c3 {
+  color: #ff3c2a !important;
+}
+.bg-light-color.data-v-64fc40c3 {
+  background-color: #ff6b35 !important;
+}
+.bg-main-color.data-v-64fc40c3 {
+  background-color: #ff3c2a !important;
+}
+.bg-linear-gradient.data-v-64fc40c3 {
+  background-image: linear-gradient(25deg, #fa123b, #ff6b35, #ff9f28, #ffcc03);
+}
+.uni-tabbar .uni-tabbar__icon.data-v-64fc40c3 {
+  width: 20px;
+  height: 18px;
+}
+.flex.data-v-64fc40c3 {
+  display: flex;
+}
+.btn.data-v-64fc40c3 {
+  background-color: #ff6b35;
+  color: #ffffff;
+  border-width: 0px;
+  border: none;
+  border-radius: 44px;
+  height: 44px;
+  box-shadow: none;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 44px;
+  text-align: center;
+}
+.btn.data-v-64fc40c3::after {
+  border: none;
+}
+.button-hover.data-v-64fc40c3 {
+  opacity: 0.7;
+}
+.margin.data-v-64fc40c3 {
+  margin: 10px;
+}
+.tag.data-v-64fc40c3 {
+  background-color: #f2f2f2;
+  color: #333333;
+  height: 28px;
+  border-radius: 28px;
+  box-shadow: none;
+  font-family: "PingFangSC-Regular", "PingFang SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  text-align: center;
+  width: 90px;
+}
+.c-content.data-v-64fc40c3 {
+  background-color: #ffffff;
+  border-top: 1px solid #ebeef5;
+  border-bottom: 1px solid #ebeef5;
+}
+.mt-30.data-v-64fc40c3 {
+  margin-top: 30rpx;
+}
+.border-top.data-v-64fc40c3 {
+  border-top: 1px solid #ebeef5;
+}
+.describe.data-v-64fc40c3 {
+  color: #909399;
+  font-size: 24rpx;
+  padding: 30rpx;
+}
+.flex-center.data-v-64fc40c3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.flex-a-c.data-v-64fc40c3 {
+  align-items: center;
+}
+.flex-j-sb.data-v-64fc40c3 {
+  justify-content: space-between;
+}
+.relative.data-v-64fc40c3 {
+  position: relative;
+}
+.wes.data-v-64fc40c3 {
+  /* 多出部分用省略号表示 , 用于一行 */
+  overflow: hidden;
+  word-wrap: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.wes-2.data-v-64fc40c3 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.wes-3.data-v-64fc40c3 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.recommend-box.data-v-64fc40c3,
+.detail-box.data-v-64fc40c3,
+.store-recommend.data-v-64fc40c3,
+.store-info.data-v-64fc40c3,
+.evaluate-box.data-v-64fc40c3,
+.card-box.data-v-64fc40c3,
+.group-list.data-v-64fc40c3 {
+  border-radius: 32rpx;
+  padding: 0rpx 32rpx 0 32rpx;
+  background: #fff;
+  overflow: hidden;
+  margin: 20rpx 0;
+}
+.goods-recommend-title.data-v-64fc40c3,
+.store-recommend-title.data-v-64fc40c3,
+.evaluate-title.data-v-64fc40c3,
+.group-name.data-v-64fc40c3 {
+  color: #262626;
+  font-size: 30rpx;
+  font-weight: 700;
+  height: 90rpx;
+  line-height: 90rpx;
+  padding-left: 14rpx;
+  position: relative;
+}
+.goods-recommend-title.data-v-64fc40c3::before,
+.store-recommend-title.data-v-64fc40c3::before,
+.evaluate-title.data-v-64fc40c3::before,
+.group-name.data-v-64fc40c3::before {
+  background-image: linear-gradient(180deg, #ff3c2a, #fcedeb);
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 3px;
+  height: 15px;
+}
+.scroll_mask.data-v-64fc40c3 {
+  height: 868rpx;
+  overflow-y: auto;
+}
+.mask.data-v-64fc40c3 {
+  height: 600px;
+}
+.card-box.data-v-64fc40c3 {
+  padding-top: 0 !important;
+}
+.card-content.data-v-64fc40c3 {
+  padding: 0 40rpx;
+  flex: 8;
+}
+.card-flex.data-v-64fc40c3 {
+  display: flex;
+  align-items: center;
+  font-size: 26rpx;
+  padding: 36rpx 0;
+  border-bottom: 2rpx solid #f9f9f9;
+}
+.card-title.data-v-64fc40c3 {
+  flex: 1;
+  color: #262626;
+  font-weight: 700;
+}
+.down-goods.data-v-64fc40c3 {
+  font-size: 50rpx !important;
+}
+.recommend-item-name.data-v-64fc40c3 {
+  height: 60rpx;
+  color: #333;
+  font-weight: 400;
+  font-size: 24rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.item-price-blod.data-v-64fc40c3 {
+  font-weight: bold;
+  font-size: 32rpx;
+}
+.recommend-item.data-v-64fc40c3 {
+  width: 30%;
+  margin: 10rpx 0rpx;
+  overflow: hidden;
+  border-radius: 12rpx;
+}
+.recommend-item.data-v-64fc40c3 .u-image__image {
+  height: 218rpx;
+  border-radius: 12rpx !important;
+}
+.recommend-item-img.data-v-64fc40c3 .u-image__image {
+  width: 100% !important;
+}
+.recommend-list-view.data-v-64fc40c3 {
+  width: 100%;
+}
+.shopTag.data-v-64fc40c3 {
+  background: #ff3c2a;
+  font-size: 24rpx;
+  margin-left: 10rpx;
+  padding: 6rpx 12rpx;
+  border-radius: 10rpx;
+  font-weight: normal;
+  color: #fff;
+}
+.store-info.data-v-64fc40c3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 40rpx 20rpx 50rpx;
+}
+.store-info .logo.data-v-64fc40c3 {
+  overflow: hidden;
+  border-radius: 6px;
+}
+.store-info .logo > ._img.data-v-64fc40c3 {
+  width: 100%;
+  height: 100%;
+}
+.store-info .name-star.data-v-64fc40c3 {
+  flex: 1;
+  margin-left: 20rpx;
+}
+.store-info .name-star .name.data-v-64fc40c3 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  line-height: 1;
+  font-weight: 700;
+  font-size: 28rpx;
+}
+.store-info .name-star .desc.data-v-64fc40c3 {
+  font-size: 12px;
+  color: #999;
+  margin-left: 10px;
+}
+.store-info .name-star .desc text.data-v-64fc40c3 {
+  margin-right: 10px;
+}
+.store-info .to-store-btn.data-v-64fc40c3 {
+  display: flex;
+  align-items: center;
+}
+.store-info .to-store-btn > view.data-v-64fc40c3 {
+  font-size: 24rpx;
+  color: #fff;
+  width: 160rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  background: #ff3c2a;
+  border-radius: 28rpx;
+}
+/* star */
+.star-con.data-v-64fc40c3 {
+  display: flex;
+  flex-direction: column;
+}
+.star-con view.data-v-64fc40c3 {
+  display: flex;
+  align-items: center;
+}
+.star-con view .star.data-v-64fc40c3 {
+  width: 30rpx;
+  height: 30rpx;
+  background: url(https://image.shutterstock.com/image-vector/star-icon-vector-illustration-260nw-474687040.jpg);
+  background-size: 100%;
+}
+.recommend-list.data-v-64fc40c3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.recommend-list.data-v-64fc40c3 .u-row {
+  width: 100%;
+}
+.recommend-list .item-price.data-v-64fc40c3 {
+  margin: 10rpx 0 20rpx 0;
+  text-align: left;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 18rpx 0;
+  font-size: 22rpx;
+  color: #ff3c2a;
+}
+.recommend-list .recommend-list-con.data-v-64fc40c3 {
+  display: flex;
+  flex-direction: column;
+  width: 32%;
+  margin-bottom: 24rpx;
+}
+.recommend-list .name.data-v-64fc40c3 {
+  overflow: hidden;
+  white-space: nowrap;
+}
+.store-recommend.data-v-64fc40c3 {
+  background: #fff;
+  margin: 20rpx 0 0 0;
+}
+.goodsNum.data-v-64fc40c3,
+.collectionNum.data-v-64fc40c3 {
+  font-size: 24rpx;
+  color: #999;
+}
+.store-row.data-v-64fc40c3 {
+  display: flex;
+  margin: 10rpx 0;
+}
+.store-row > ._div.data-v-64fc40c3 {
+  margin-right: 20rpx;
+}
+

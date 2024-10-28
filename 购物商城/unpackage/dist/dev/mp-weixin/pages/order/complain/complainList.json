@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "投诉列表",
+  "usingComponents": {
+    "u-line": "/uview-ui/components/u-line/u-line",
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "u-tag": "/uview-ui/components/u-tag/u-tag",
+    "u-empty": "/uview-ui/components/u-empty/u-empty",
+    "u-modal": "/uview-ui/components/u-modal/u-modal"
+  }
+}

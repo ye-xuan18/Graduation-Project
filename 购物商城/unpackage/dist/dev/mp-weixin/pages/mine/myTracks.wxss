@@ -1,0 +1,221 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/*主题颜色 具体参考   https://ant.design/docs/spec/colors-cn */
+/**微信登录按钮颜色 */
+/**主颜色*/
+/*用于金钱等颜色 */
+/*主题高亮颜色*/
+/*辅助高亮颜色*/
+/*主题高亮背景颜色*/
+/*价格红高亮背景颜色*/
+/*辅助色*/
+.light-color.data-v-a72a0032 {
+  color: #ff6b35;
+}
+.main-color.data-v-a72a0032 {
+  color: #ff3c2a !important;
+}
+.bg-light-color.data-v-a72a0032 {
+  background-color: #ff6b35 !important;
+}
+.bg-main-color.data-v-a72a0032 {
+  background-color: #ff3c2a !important;
+}
+.bg-linear-gradient.data-v-a72a0032 {
+  background-image: linear-gradient(25deg, #fa123b, #ff6b35, #ff9f28, #ffcc03);
+}
+.uni-tabbar .uni-tabbar__icon.data-v-a72a0032 {
+  width: 20px;
+  height: 18px;
+}
+.flex.data-v-a72a0032 {
+  display: flex;
+}
+.btn.data-v-a72a0032 {
+  background-color: #ff6b35;
+  color: #ffffff;
+  border-width: 0px;
+  border: none;
+  border-radius: 44px;
+  height: 44px;
+  box-shadow: none;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 44px;
+  text-align: center;
+}
+.btn.data-v-a72a0032::after {
+  border: none;
+}
+.button-hover.data-v-a72a0032 {
+  opacity: 0.7;
+}
+.margin.data-v-a72a0032 {
+  margin: 10px;
+}
+.tag.data-v-a72a0032 {
+  background-color: #f2f2f2;
+  color: #333333;
+  height: 28px;
+  border-radius: 28px;
+  box-shadow: none;
+  font-family: "PingFangSC-Regular", "PingFang SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  text-align: center;
+  width: 90px;
+}
+.c-content.data-v-a72a0032 {
+  background-color: #ffffff;
+  border-top: 1px solid #ebeef5;
+  border-bottom: 1px solid #ebeef5;
+}
+.mt-30.data-v-a72a0032 {
+  margin-top: 30rpx;
+}
+.border-top.data-v-a72a0032 {
+  border-top: 1px solid #ebeef5;
+}
+.describe.data-v-a72a0032 {
+  color: #909399;
+  font-size: 24rpx;
+  padding: 30rpx;
+}
+.flex-center.data-v-a72a0032 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.flex-a-c.data-v-a72a0032 {
+  align-items: center;
+}
+.flex-j-sb.data-v-a72a0032 {
+  justify-content: space-between;
+}
+.relative.data-v-a72a0032 {
+  position: relative;
+}
+.wes.data-v-a72a0032 {
+  /* 多出部分用省略号表示 , 用于一行 */
+  overflow: hidden;
+  word-wrap: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.wes-2.data-v-a72a0032 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.wes-3.data-v-a72a0032 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.submit.data-v-a72a0032 {
+  position: fixed;
+  bottom: 20rpx;
+  left: 10%;
+  width: 80%;
+  height: 80rpx;
+  color: #fff;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ff6b35;
+}
+.myTracks.data-v-a72a0032 {
+  width: 100%;
+  padding-top: 2rpx;
+}
+.myTracks-title.data-v-a72a0032 {
+  width: 100%;
+  height: 110rpx;
+  padding-left: 20rpx;
+  font-size: 28rpx;
+  color: #666;
+  font-weight: bold;
+  background-color: #fff;
+  align-items: center;
+  display: flex;
+}
+.myTracks-items.data-v-a72a0032 {
+  padding-top: 2rpx;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.myTracks-item.data-v-a72a0032 {
+  width: 100%;
+  height: 226rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  margin-bottom: 2rpx;
+  background-color: #fff;
+  position: relative;
+  align-items: center;
+  display: flex;
+}
+.myTracks-item-img.data-v-a72a0032 {
+  margin-right: 20rpx;
+  border-radius: 8rpx;
+}
+.myTracks-item-img image.data-v-a72a0032 {
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 8rpx;
+}
+.myTracks-item-title.data-v-a72a0032 {
+  font-size: 28rpx;
+  color: #333;
+}
+.myTracks-item-title-desc.data-v-a72a0032 {
+  font-size: 28rpx;
+  color: #999;
+}
+.myTracks-item-price.data-v-a72a0032 {
+  font-size: 28rpx;
+  color: #ff6b35;
+  padding: 10rpx 0 0 0;
+}
+.myTracks-action.data-v-a72a0032 {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  height: 75rpx;
+  align-items: center;
+  padding: 0 32rpx;
+}
+.myTracks-action-btn.data-v-a72a0032 {
+  width: 130rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.myTracks-divider.data-v-a72a0032 {
+  width: 100%;
+  height: 20rpx;
+}
+.myTracks-action-check.data-v-a72a0032 {
+  align-items: center;
+  display: flex;
+}
+.edit.data-v-a72a0032 {
+  padding-right: 32rpx;
+}
+

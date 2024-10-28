@@ -1,0 +1,11 @@
+
+.u-update-content.data-v-c570ea34 {
+  font-size: 26rpx;
+  padding: 30rpx;
+}
+._a.data-v-c570ea34 {
+  -webkit-text-decoration: blue;
+          text-decoration: blue;
+  color: blue;
+}
+

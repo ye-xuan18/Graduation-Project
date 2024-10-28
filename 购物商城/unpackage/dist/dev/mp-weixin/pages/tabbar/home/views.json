@@ -1,0 +1,27 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-no-network": "/uview-ui/components/u-no-network/u-no-network",
+    "carousel": "/pages/tabbar/home/template/tpl_banner",
+    "title-layout": "/pages/tabbar/home/template/tpl_title",
+    "left-one-right-two": "/pages/tabbar/home/template/tpl_left_one_right_two",
+    "left-two-right-one": "/pages/tabbar/home/template/tpl_left_two_right_one",
+    "top-one-bottom-two": "/pages/tabbar/home/template/tpl_top_one_bottom_two",
+    "top-two-bottom-one": "/pages/tabbar/home/template/tpl_top_two_bottom_one",
+    "flex-three": "/pages/tabbar/home/template/tpl_flex_three",
+    "flex-five": "/pages/tabbar/home/template/tpl_flex_five",
+    "flex-four": "/pages/tabbar/home/template/tpl_flex_four",
+    "flex-two": "/pages/tabbar/home/template/tpl_flex_two",
+    "text-picture": "/pages/tabbar/home/template/tpl_text_picture",
+    "menu-layout": "/pages/tabbar/home/template/tpl_menu",
+    "search": "/pages/tabbar/home/template/tpl_search",
+    "flex-one": "/pages/tabbar/home/template/tpl_flex_one",
+    "goods": "/pages/tabbar/home/template/tpl_goods",
+    "group": "/pages/tabbar/home/template/tpl_group",
+    "notice": "/pages/tabbar/home/template/tpl_notice",
+    "promotions": "/pages/tabbar/home/template/tpl_promotions_detail",
+    "fetch-coupon": "/pages/tabbar/home/template/fetch_coupon"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="_div data-v-d925c306"><view class="goods-recommend _div data-v-d925c306">{{title?'--'+title+'-- ':''}}</view><goods-template vue-id="4b919bae-1" res="{{goodsList}}" class="data-v-d925c306" bind:__l="__l"></goods-template></view>

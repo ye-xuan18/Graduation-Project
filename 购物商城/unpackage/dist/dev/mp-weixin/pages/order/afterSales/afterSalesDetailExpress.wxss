@@ -1,0 +1,235 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/*主题颜色 具体参考   https://ant.design/docs/spec/colors-cn */
+/**微信登录按钮颜色 */
+/**主颜色*/
+/*用于金钱等颜色 */
+/*主题高亮颜色*/
+/*辅助高亮颜色*/
+/*主题高亮背景颜色*/
+/*价格红高亮背景颜色*/
+/*辅助色*/
+.light-color.data-v-464a1a0a {
+  color: #ff6b35;
+}
+.main-color.data-v-464a1a0a {
+  color: #ff3c2a !important;
+}
+.bg-light-color.data-v-464a1a0a {
+  background-color: #ff6b35 !important;
+}
+.bg-main-color.data-v-464a1a0a {
+  background-color: #ff3c2a !important;
+}
+.bg-linear-gradient.data-v-464a1a0a {
+  background-image: linear-gradient(25deg, #fa123b, #ff6b35, #ff9f28, #ffcc03);
+}
+.uni-tabbar .uni-tabbar__icon.data-v-464a1a0a {
+  width: 20px;
+  height: 18px;
+}
+.flex.data-v-464a1a0a {
+  display: flex;
+}
+.btn.data-v-464a1a0a {
+  background-color: #ff6b35;
+  color: #ffffff;
+  border-width: 0px;
+  border: none;
+  border-radius: 44px;
+  height: 44px;
+  box-shadow: none;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 44px;
+  text-align: center;
+}
+.btn.data-v-464a1a0a::after {
+  border: none;
+}
+.button-hover.data-v-464a1a0a {
+  opacity: 0.7;
+}
+.margin.data-v-464a1a0a {
+  margin: 10px;
+}
+.tag.data-v-464a1a0a {
+  background-color: #f2f2f2;
+  color: #333333;
+  height: 28px;
+  border-radius: 28px;
+  box-shadow: none;
+  font-family: "PingFangSC-Regular", "PingFang SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  text-align: center;
+  width: 90px;
+}
+.c-content.data-v-464a1a0a {
+  background-color: #ffffff;
+  border-top: 1px solid #ebeef5;
+  border-bottom: 1px solid #ebeef5;
+}
+.mt-30.data-v-464a1a0a {
+  margin-top: 30rpx;
+}
+.border-top.data-v-464a1a0a {
+  border-top: 1px solid #ebeef5;
+}
+.describe.data-v-464a1a0a {
+  color: #909399;
+  font-size: 24rpx;
+  padding: 30rpx;
+}
+.flex-center.data-v-464a1a0a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.flex-a-c.data-v-464a1a0a {
+  align-items: center;
+}
+.flex-j-sb.data-v-464a1a0a {
+  justify-content: space-between;
+}
+.relative.data-v-464a1a0a {
+  position: relative;
+}
+.wes.data-v-464a1a0a {
+  /* 多出部分用省略号表示 , 用于一行 */
+  overflow: hidden;
+  word-wrap: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.wes-2.data-v-464a1a0a {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.wes-3.data-v-464a1a0a {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+page.data-v-464a1a0a,
+.content.data-v-464a1a0a {
+  background: #f8f8f8;
+  height: 100%;
+}
+.mp-iphonex-bottom.data-v-464a1a0a {
+  overflow: hidden;
+}
+.after-sales-goods-detail-view.data-v-464a1a0a {
+  background-color: #fff;
+  padding: 10rpx 0rpx;
+}
+.after-sales-goods-detail-view .header.data-v-464a1a0a {
+  background-color: #f7f7f7;
+  color: #999999;
+  font-size: 22rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  line-height: 70rpx;
+}
+.after-sales-goods-detail-view .header .header-text.data-v-464a1a0a {
+  background-color: #999999;
+  padding: 10rpx 30rpx;
+  border-radius: 50rpx;
+}
+.after-sales-goods-detail-view .header .seller-name.data-v-464a1a0a {
+  color: #ff3c2a;
+}
+.after-sales-goods-detail-view .goods-item-view.data-v-464a1a0a {
+  display: flex;
+  flex-direction: row;
+  padding: 20rpx 30rpx;
+  background-color: #eef1f2;
+}
+.after-sales-goods-detail-view .goods-item-view .goods-info.data-v-464a1a0a {
+  padding-left: 30rpx;
+  flex: 1;
+}
+.after-sales-goods-detail-view .goods-item-view .goods-info .goods-title.data-v-464a1a0a {
+  margin-bottom: 10rpx;
+  color: #303133;
+}
+.after-sales-goods-detail-view .goods-item-view .goods-info .goods-specs.data-v-464a1a0a {
+  font-size: 24rpx;
+  margin-bottom: 10rpx;
+  color: #cccccc;
+}
+.after-sales-goods-detail-view .goods-item-view .goods-info .goods-price.data-v-464a1a0a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 28rpx;
+  margin-bottom: 10rpx;
+  color: #ff6b35;
+}
+.after-sales-goods-detail-view .goods-item-view .goods-info .goods-price .num.data-v-464a1a0a {
+  font-size: 24rpx;
+  color: #999999;
+}
+.after-sales-goods-detail-view .goods-item-view .goods-num.data-v-464a1a0a {
+  width: 60rpx;
+  color: #ff3c2a;
+}
+.opt-view.data-v-464a1a0a {
+  background-color: #fff;
+  padding: 40rpx 30rpx 0rpx 30rpx;
+  font-size: 26rpx;
+}
+.opt-view .how-view.data-v-464a1a0a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 80rpx;
+  border-bottom: 1px solid #f8f8f8;
+}
+.opt-view .explain-view.data-v-464a1a0a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 150rpx;
+}
+.opt-view .img-title.data-v-464a1a0a {
+  height: 80rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.opt-view .images-view.data-v-464a1a0a {
+  padding: 20rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.submit-view.data-v-464a1a0a {
+  position: fixed;
+  z-index: 999;
+  bottom: 10px;
+  left: 0px;
+  margin-top: 100rpx;
+  height: 100rpx;
+  width: 750rpx;
+  align-items: center;
+  padding: 0rpx 20rpx;
+  color: #fff;
+}
+

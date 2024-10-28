@@ -1,0 +1,206 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/*主题颜色 具体参考   https://ant.design/docs/spec/colors-cn */
+/**微信登录按钮颜色 */
+/**主颜色*/
+/*用于金钱等颜色 */
+/*主题高亮颜色*/
+/*辅助高亮颜色*/
+/*主题高亮背景颜色*/
+/*价格红高亮背景颜色*/
+/*辅助色*/
+.light-color.data-v-30223b2a {
+  color: #ff6b35;
+}
+.main-color.data-v-30223b2a {
+  color: #ff3c2a !important;
+}
+.bg-light-color.data-v-30223b2a {
+  background-color: #ff6b35 !important;
+}
+.bg-main-color.data-v-30223b2a {
+  background-color: #ff3c2a !important;
+}
+.bg-linear-gradient.data-v-30223b2a {
+  background-image: linear-gradient(25deg, #fa123b, #ff6b35, #ff9f28, #ffcc03);
+}
+.uni-tabbar .uni-tabbar__icon.data-v-30223b2a {
+  width: 20px;
+  height: 18px;
+}
+.flex.data-v-30223b2a {
+  display: flex;
+}
+.btn.data-v-30223b2a {
+  background-color: #ff6b35;
+  color: #ffffff;
+  border-width: 0px;
+  border: none;
+  border-radius: 44px;
+  height: 44px;
+  box-shadow: none;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 44px;
+  text-align: center;
+}
+.btn.data-v-30223b2a::after {
+  border: none;
+}
+.button-hover.data-v-30223b2a {
+  opacity: 0.7;
+}
+.margin.data-v-30223b2a {
+  margin: 10px;
+}
+.tag.data-v-30223b2a {
+  background-color: #f2f2f2;
+  color: #333333;
+  height: 28px;
+  border-radius: 28px;
+  box-shadow: none;
+  font-family: "PingFangSC-Regular", "PingFang SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  text-align: center;
+  width: 90px;
+}
+.c-content.data-v-30223b2a {
+  background-color: #ffffff;
+  border-top: 1px solid #ebeef5;
+  border-bottom: 1px solid #ebeef5;
+}
+.mt-30.data-v-30223b2a {
+  margin-top: 30rpx;
+}
+.border-top.data-v-30223b2a {
+  border-top: 1px solid #ebeef5;
+}
+.describe.data-v-30223b2a {
+  color: #909399;
+  font-size: 24rpx;
+  padding: 30rpx;
+}
+.flex-center.data-v-30223b2a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.flex-a-c.data-v-30223b2a {
+  align-items: center;
+}
+.flex-j-sb.data-v-30223b2a {
+  justify-content: space-between;
+}
+.relative.data-v-30223b2a {
+  position: relative;
+}
+.wes.data-v-30223b2a {
+  /* 多出部分用省略号表示 , 用于一行 */
+  overflow: hidden;
+  word-wrap: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.wes-2.data-v-30223b2a {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.wes-3.data-v-30223b2a {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.layout.data-v-30223b2a {
+  padding: 8px 0;
+  background: #f9f9f9;
+}
+.selected-title > ._h4.data-v-30223b2a {
+  font-size: 30rpx;
+  color: #000 !important;
+}
+.selected-title > ._div.data-v-30223b2a {
+  font-weight: bold;
+  color: #ff3c2a !important;
+}
+.goods-cell-title.data-v-30223b2a {
+  background: #f9f9f9;
+  padding: 10px;
+  transition: 0.35s;
+  display: flex;
+}
+.goods-cell-title > .goods-item-title.data-v-30223b2a {
+  flex: 1;
+  text-align: center;
+}
+.goods-cell-title > .goods-item-title > ._h4.data-v-30223b2a {
+  font-size: 32rpx;
+}
+.goods-cell-title > .goods-item-title > ._div.data-v-30223b2a {
+  color: #999;
+  font-size: 24rpx;
+}
+.goods-list.data-v-30223b2a {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.goods-item.data-v-30223b2a {
+  width: 50%;
+  margin-bottom: 10px;
+  border-radius: 0.4em;
+  overflow: hidden;
+}
+.goods-img.data-v-30223b2a {
+  position: relative;
+  margin: 0 auto;
+  width: 94%;
+  border-top-left-radius: 20rpx;
+  border-top-right-radius: 20rpx;
+  overflow: hidden;
+}
+.goods-img > ._img.data-v-30223b2a {
+  width: 100%;
+  height: 100%;
+}
+.goods-desc.data-v-30223b2a {
+  border-bottom-left-radius: 20rpx;
+  border-bottom-right-radius: 20rpx;
+  width: 94%;
+  background: #fff;
+  padding: 8rpx 0 8rpx 8rpx;
+  margin: 0 auto;
+}
+.goods-desc > .goods-title.data-v-30223b2a {
+  font-size: 24rpx;
+  height: 67rpx;
+  display: -webkit-box;
+  font-weight: 500;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.goods-desc > .goods-bottom.data-v-30223b2a {
+  display: flex;
+  font-weight: bold;
+}
+.goods-desc > .goods-bottom > .goods-price.data-v-30223b2a {
+  line-height: 2;
+  color: #ff3c2a;
+}
+.goods-desc > .goods-bottom > .goods-price > ._span.data-v-30223b2a {
+  font-size: 42rpx;
+}
+

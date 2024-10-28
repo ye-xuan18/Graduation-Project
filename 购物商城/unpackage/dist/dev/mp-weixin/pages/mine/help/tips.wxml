@@ -1,0 +1,1 @@
+<view class="wrapper _div data-v-30b9be43"><block wx:if="{{res}}"><u-parse vue-id="3302e9ba-1" show-with-animation="{{true}}" lazy-load="{{true}}" selectable="{{true}}" html="{{res.content}}" class="data-v-30b9be43" bind:__l="__l"></u-parse></block></view>

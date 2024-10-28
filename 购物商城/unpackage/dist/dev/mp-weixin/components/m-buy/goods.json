@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "u-alert-tips": "/uview-ui/components/u-alert-tips/u-alert-tips",
+    "uni-number-box": "/components/uni-number-box"
+  }
+}

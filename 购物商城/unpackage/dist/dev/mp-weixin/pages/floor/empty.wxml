@@ -1,0 +1,1 @@
+<block wx:if="{{type}}"><default-page vue-id="670b96f6-1" type="{{type}}" title="您的设备已断网" isBtn="{{false}}" bind:__l="__l"></default-page></block>

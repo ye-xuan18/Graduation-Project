@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "小程序登录",
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-modal": "/uview-ui/components/u-modal/u-modal",
+    "u-checkbox": "/uview-ui/components/u-checkbox/u-checkbox"
+  }
+}

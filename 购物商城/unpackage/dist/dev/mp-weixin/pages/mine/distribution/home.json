@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "推广分佣",
+  "usingComponents": {
+    "u-icon": "/uview-ui/components/u-icon/u-icon"
+  }
+}

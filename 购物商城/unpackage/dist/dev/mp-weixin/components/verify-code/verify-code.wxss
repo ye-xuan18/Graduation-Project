@@ -1,0 +1,210 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/*主题颜色 具体参考   https://ant.design/docs/spec/colors-cn */
+/**微信登录按钮颜色 */
+/**主颜色*/
+/*用于金钱等颜色 */
+/*主题高亮颜色*/
+/*辅助高亮颜色*/
+/*主题高亮背景颜色*/
+/*价格红高亮背景颜色*/
+/*辅助色*/
+.light-color.data-v-e1ce84f0 {
+  color: #ff6b35;
+}
+.main-color.data-v-e1ce84f0 {
+  color: #ff3c2a !important;
+}
+.bg-light-color.data-v-e1ce84f0 {
+  background-color: #ff6b35 !important;
+}
+.bg-main-color.data-v-e1ce84f0 {
+  background-color: #ff3c2a !important;
+}
+.bg-linear-gradient.data-v-e1ce84f0 {
+  background-image: linear-gradient(25deg, #fa123b, #ff6b35, #ff9f28, #ffcc03);
+}
+.uni-tabbar .uni-tabbar__icon.data-v-e1ce84f0 {
+  width: 20px;
+  height: 18px;
+}
+.flex.data-v-e1ce84f0 {
+  display: flex;
+}
+.btn.data-v-e1ce84f0 {
+  background-color: #ff6b35;
+  color: #ffffff;
+  border-width: 0px;
+  border: none;
+  border-radius: 44px;
+  height: 44px;
+  box-shadow: none;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 44px;
+  text-align: center;
+}
+.btn.data-v-e1ce84f0::after {
+  border: none;
+}
+.button-hover.data-v-e1ce84f0 {
+  opacity: 0.7;
+}
+.margin.data-v-e1ce84f0 {
+  margin: 10px;
+}
+.tag.data-v-e1ce84f0 {
+  background-color: #f2f2f2;
+  color: #333333;
+  height: 28px;
+  border-radius: 28px;
+  box-shadow: none;
+  font-family: "PingFangSC-Regular", "PingFang SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  text-align: center;
+  width: 90px;
+}
+.c-content.data-v-e1ce84f0 {
+  background-color: #ffffff;
+  border-top: 1px solid #ebeef5;
+  border-bottom: 1px solid #ebeef5;
+}
+.mt-30.data-v-e1ce84f0 {
+  margin-top: 30rpx;
+}
+.border-top.data-v-e1ce84f0 {
+  border-top: 1px solid #ebeef5;
+}
+.describe.data-v-e1ce84f0 {
+  color: #909399;
+  font-size: 24rpx;
+  padding: 30rpx;
+}
+.flex-center.data-v-e1ce84f0 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.flex-a-c.data-v-e1ce84f0 {
+  align-items: center;
+}
+.flex-j-sb.data-v-e1ce84f0 {
+  justify-content: space-between;
+}
+.relative.data-v-e1ce84f0 {
+  position: relative;
+}
+.wes.data-v-e1ce84f0 {
+  /* 多出部分用省略号表示 , 用于一行 */
+  overflow: hidden;
+  word-wrap: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.wes-2.data-v-e1ce84f0 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.wes-3.data-v-e1ce84f0 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.xt__verify-code.data-v-e1ce84f0 {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+.xt__verify-code .xt__input.data-v-e1ce84f0 {
+  height: 100%;
+  width: 200%;
+  position: absolute;
+  left: -100%;
+  z-index: 1;
+}
+.xt__verify-code .xt__cursor.data-v-e1ce84f0 {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  display: inline-block;
+  width: 2px;
+  -webkit-animation-name: cursor-data-v-e1ce84f0;
+          animation-name: cursor-data-v-e1ce84f0;
+  -webkit-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+.xt__verify-code .xt__input-ground.data-v-e1ce84f0 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+.xt__verify-code .xt__input-ground .xt__box.data-v-e1ce84f0 {
+  position: relative;
+  display: inline-block;
+  width: 76rpx;
+  height: 112rpx;
+}
+.xt__verify-code .xt__input-ground .xt__box-bottom.data-v-e1ce84f0 {
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+}
+.xt__verify-code .xt__input-ground .xt__box-box.data-v-e1ce84f0 {
+  border-width: 2px;
+  border-style: solid;
+}
+.xt__verify-code .xt__input-ground .xt__box-middle.data-v-e1ce84f0 {
+  border: none;
+}
+.xt__verify-code .xt__input-ground .xt__box .xt__middle-line.data-v-e1ce84f0 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+}
+.xt__verify-code .xt__input-ground .xt__box .xt__code-text.data-v-e1ce84f0 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 52rpx;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+@-webkit-keyframes cursor-data-v-e1ce84f0 {
+0% {
+    opacity: 1;
+}
+100% {
+    opacity: 0;
+}
+}
+@keyframes cursor-data-v-e1ce84f0 {
+0% {
+    opacity: 1;
+}
+100% {
+    opacity: 0;
+}
+}
+

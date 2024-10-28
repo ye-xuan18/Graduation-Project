@@ -1,0 +1,300 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/*主题颜色 具体参考   https://ant.design/docs/spec/colors-cn */
+/**微信登录按钮颜色 */
+/**主颜色*/
+/*用于金钱等颜色 */
+/*主题高亮颜色*/
+/*辅助高亮颜色*/
+/*主题高亮背景颜色*/
+/*价格红高亮背景颜色*/
+/*辅助色*/
+.light-color.data-v-31dcbc62 {
+  color: #ff6b35;
+}
+.main-color.data-v-31dcbc62 {
+  color: #ff3c2a !important;
+}
+.bg-light-color.data-v-31dcbc62 {
+  background-color: #ff6b35 !important;
+}
+.bg-main-color.data-v-31dcbc62 {
+  background-color: #ff3c2a !important;
+}
+.bg-linear-gradient.data-v-31dcbc62 {
+  background-image: linear-gradient(25deg, #fa123b, #ff6b35, #ff9f28, #ffcc03);
+}
+.uni-tabbar .uni-tabbar__icon.data-v-31dcbc62 {
+  width: 20px;
+  height: 18px;
+}
+.flex.data-v-31dcbc62 {
+  display: flex;
+}
+.btn.data-v-31dcbc62 {
+  background-color: #ff6b35;
+  color: #ffffff;
+  border-width: 0px;
+  border: none;
+  border-radius: 44px;
+  height: 44px;
+  box-shadow: none;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 44px;
+  text-align: center;
+}
+.btn.data-v-31dcbc62::after {
+  border: none;
+}
+.button-hover.data-v-31dcbc62 {
+  opacity: 0.7;
+}
+.margin.data-v-31dcbc62 {
+  margin: 10px;
+}
+.tag.data-v-31dcbc62 {
+  background-color: #f2f2f2;
+  color: #333333;
+  height: 28px;
+  border-radius: 28px;
+  box-shadow: none;
+  font-family: "PingFangSC-Regular", "PingFang SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  text-align: center;
+  width: 90px;
+}
+.c-content.data-v-31dcbc62 {
+  background-color: #ffffff;
+  border-top: 1px solid #ebeef5;
+  border-bottom: 1px solid #ebeef5;
+}
+.mt-30.data-v-31dcbc62 {
+  margin-top: 30rpx;
+}
+.border-top.data-v-31dcbc62 {
+  border-top: 1px solid #ebeef5;
+}
+.describe.data-v-31dcbc62 {
+  color: #909399;
+  font-size: 24rpx;
+  padding: 30rpx;
+}
+.flex-center.data-v-31dcbc62 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.flex-a-c.data-v-31dcbc62 {
+  align-items: center;
+}
+.flex-j-sb.data-v-31dcbc62 {
+  justify-content: space-between;
+}
+.relative.data-v-31dcbc62 {
+  position: relative;
+}
+.wes.data-v-31dcbc62 {
+  /* 多出部分用省略号表示 , 用于一行 */
+  overflow: hidden;
+  word-wrap: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.wes-2.data-v-31dcbc62 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.wes-3.data-v-31dcbc62 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.recommend-box.data-v-31dcbc62,
+.detail-box.data-v-31dcbc62,
+.store-recommend.data-v-31dcbc62,
+.store-info.data-v-31dcbc62,
+.evaluate-box.data-v-31dcbc62,
+.card-box.data-v-31dcbc62,
+.group-list.data-v-31dcbc62 {
+  border-radius: 32rpx;
+  padding: 0rpx 32rpx 0 32rpx;
+  background: #fff;
+  overflow: hidden;
+  margin: 20rpx 0;
+}
+.goods-recommend-title.data-v-31dcbc62,
+.store-recommend-title.data-v-31dcbc62,
+.evaluate-title.data-v-31dcbc62,
+.group-name.data-v-31dcbc62 {
+  color: #262626;
+  font-size: 30rpx;
+  font-weight: 700;
+  height: 90rpx;
+  line-height: 90rpx;
+  padding-left: 14rpx;
+  position: relative;
+}
+.goods-recommend-title.data-v-31dcbc62::before,
+.store-recommend-title.data-v-31dcbc62::before,
+.evaluate-title.data-v-31dcbc62::before,
+.group-name.data-v-31dcbc62::before {
+  background-image: linear-gradient(180deg, #ff3c2a, #fcedeb);
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 3px;
+  height: 15px;
+}
+.scroll_mask.data-v-31dcbc62 {
+  height: 868rpx;
+  overflow-y: auto;
+}
+.mask.data-v-31dcbc62 {
+  height: 600px;
+}
+.card-box.data-v-31dcbc62 {
+  padding-top: 0 !important;
+}
+.card-content.data-v-31dcbc62 {
+  padding: 0 40rpx;
+  flex: 8;
+}
+.card-flex.data-v-31dcbc62 {
+  display: flex;
+  align-items: center;
+  font-size: 26rpx;
+  padding: 36rpx 0;
+  border-bottom: 2rpx solid #f9f9f9;
+}
+.card-title.data-v-31dcbc62 {
+  flex: 1;
+  color: #262626;
+  font-weight: 700;
+}
+.down-goods.data-v-31dcbc62 {
+  font-size: 50rpx !important;
+}
+.commImg.data-v-31dcbc62 {
+  margin-right: 12rpx;
+  margin-bottom: 10rpx;
+  display: inline-block;
+}
+.name.data-v-31dcbc62 {
+  color: #262626;
+  font-size: 22rpx;
+}
+.eva-section-btn.data-v-31dcbc62 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40rpx 40rpx 50rpx;
+  margin: 2px 0 20rpx 0;
+  background: #fff;
+}
+.eva-section-btn text.data-v-31dcbc62 {
+  width: 200rpx;
+  height: 50rpx;
+  font-size: 22rpx;
+  line-height: 46rpx;
+  text-align: center;
+  color: #262626;
+  border: 2rpx solid #ededed;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+.goodsNoMore.data-v-31dcbc62 {
+  padding: 20rpx 0;
+  text-align: center;
+  color: #909399;
+}
+/* 评价 */
+.eva-section.data-v-31dcbc62 {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+}
+.eva-section .e-header.data-v-31dcbc62 {
+  display: flex;
+  align-items: baseline;
+  font-size: 26rpx;
+  color: #909399;
+}
+.eva-section .e-header > .evaluate-num.data-v-31dcbc62 {
+  margin-left: 10rpx;
+  font-size: 24rpx;
+  color: #333;
+}
+.eva-section .e-header .tit.data-v-31dcbc62 {
+  font-size: 32rpx;
+  color: #303133;
+  font-weight: 500;
+  margin: 0 4rpx;
+}
+.eva-section .e-header .tip.data-v-31dcbc62 {
+  flex: 1;
+  text-align: right;
+  color: #8c8c8c;
+  font-size: 24rpx;
+}
+.eva-section .e-header .icon-you.data-v-31dcbc62 {
+  margin-left: 10rpx;
+}
+.scroll-x.data-v-31dcbc62 {
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: auto;
+}
+.eva-box.data-v-31dcbc62 {
+  padding: 36rpx 0 30rpx 0;
+  border-bottom: 2rpx solid #f2f2f2;
+}
+.eva-box .section-info.data-v-31dcbc62 {
+  display: flex;
+  align-items: center;
+}
+.eva-box .section-info .portrait.data-v-31dcbc62 {
+  flex-shrink: 0;
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 100px;
+  margin-right: 20rpx;
+}
+.eva-box .section-info > view > text.data-v-31dcbc62 {
+  margin-left: 6rpx;
+}
+.eva-box .section-contant.data-v-31dcbc62 {
+  display: flex;
+  flex-direction: column;
+}
+.eva-box .section-contant .con.data-v-31dcbc62 {
+  font-size: 26rpx;
+  line-height: 46rpx;
+  color: #303133;
+  color: #333;
+  padding: 20rpx 0;
+}
+.eva-box .section-contant .bot.data-v-31dcbc62 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 22rpx;
+  color: #999;
+  margin-top: 20rpx;
+}
+

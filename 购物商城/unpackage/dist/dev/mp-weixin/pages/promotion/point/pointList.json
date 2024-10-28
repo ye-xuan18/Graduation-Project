@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "积分商城",
+  "usingComponents": {
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "u-loading": "/uview-ui/components/u-loading/u-loading",
+    "uni-load-more": "/components/uni-load-more/uni-load-more",
+    "user-point": "/pages/promotion/point/user"
+  }
+}

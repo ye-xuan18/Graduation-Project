@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "绑定手机号",
+  "usingComponents": {
+    "u-form": "/uview-ui/components/u-form/u-form",
+    "u-form-item": "/uview-ui/components/u-form-item/u-form-item",
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "u-verification-code": "/uview-ui/components/u-verification-code/u-verification-code",
+    "my-verification": "/components/verification/verification"
+  }
+}

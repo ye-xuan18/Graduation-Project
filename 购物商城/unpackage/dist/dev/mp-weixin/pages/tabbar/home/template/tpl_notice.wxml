@@ -1,0 +1,1 @@
+<view class="layout _div data-v-79a518b4"><view class="background _div data-v-79a518b4"><u-notice-bar vue-id="8a03025c-1" mode="vertical" bg-color="{{res.list[0].bk_color}}" color="{{res.list[0].color}}" list="{{list}}" class="data-v-79a518b4" bind:__l="__l"></u-notice-bar></view></view>

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "扫码登录",
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-image": "/uview-ui/components/u-image/u-image"
+  }
+}

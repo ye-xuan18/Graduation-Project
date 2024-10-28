@@ -1,0 +1,29 @@
+<!-- 直播中 -->
+<view class="wx-live" wx:if="{{liveInfo.status===2}}">
+	<!--<channel-live finder-user-name="finderUserName" feed-id="{{feedId}}"></channel-live>-->
+	<view class="live-icon"><image class="live-image" src="https://ccmao-b2c.oss-cn-shenzhen.aliyuncs.com/live.gif"></image></view>
+	<view class="live-text">
+	    <view class="nick-name">{{liveInfo.description}}</view>
+	</view>
+	<view class="live-btn" bind:tap="openChannelsLive" data-finderusername="{{finderUserName}}"> 进入直播间</view>
+</view>
+<!-- 直播结束 -->
+<view wx:if="{{liveInfo.status===3}}">
+	<!-- 查看回放 -->
+	<!-- 直播状态 - replayStatus
+	0	未生成
+	1	已生成
+	3	生成中
+	6	已过期 -->
+	<view class="wx-replay" wx:if="{{liveInfo.replayStatus===1}}">
+		<!-- 目前微信API暂不支持查看回放 -->
+	</view>
+	<view class="wx-notice" wx:if="{{noticeInfo.status===0 && noticeInfo.reservable}}">
+	        <view class="reserve-icon">直播预告</view>
+	        <view class="reserve-text">
+	            <view class="nick-name">{{noticeInfo.nickname}}</view>
+	            <view class="desc">{{noticeInfo.startTimeText}}后开播</view>
+	        </view>
+			<view class="reserve-btn" bind:tap="reserveChannelsLive" data-noticeid = "{{noticeInfo.noticeId}}"> 预约直播</view>
+		</view>
+</view>

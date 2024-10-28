@@ -1,0 +1,1 @@
+<view class="recommend-box data-v-4a5a284a"><view class="goods-recommend-title _h4 data-v-4a5a284a">热门商品</view><block wx:if="{{res}}"><goods-list vue-id="00eb61fc-1" res="{{res}}" storeName="{{false}}" class="data-v-4a5a284a" bind:__l="__l"></goods-list></block></view>

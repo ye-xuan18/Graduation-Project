@@ -1,0 +1,233 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4672593 */
+  src: url('/static/iconfont/iconfont.ttf') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tuangou:before {
+  content: "\e79a";
+}
+
+.icon-point:before {
+  content: "\e602";
+}
+
+.icon-cartfill:before {
+  content: "\e6b9";
+}
+
+.icon-myfill:before {
+  content: "\e78c";
+}
+
+.icon-category_fill:before {
+  content: "\e649";
+}
+
+.icon-shouye:before {
+  content: "\e610";
+}
+
+.icon-find:before {
+  content: "\e618";
+}
+
+.icon-aftersale:before {
+  content: "\e600";
+}
+
+.icon-message-fill:before {
+  content: "\e779";
+}
+
+.icon-next:before {
+  content: "\e648";
+}
+
+.icon-previous:before {
+  content: "\e64a";
+}
+
+.icon-pay-balance:before {
+  content: "\e653";
+}
+
+.icon-minus:before {
+  content: "\eaf5";
+}
+
+.icon-plus:before {
+  content: "\e8fe";
+}
+
+.icon-share:before {
+  content: "\e61c";
+}
+
+.icon-success:before {
+  content: "\e66b";
+}
+
+.icon-rule:before {
+  content: "\e617";
+}
+
+.icon-pay-alipay:before {
+  content: "\e6bd";
+}
+
+.icon-qrcode:before {
+  content: "\e623";
+}
+
+.icon-customer-fill:before {
+  content: "\e828";
+}
+
+.icon-order-search:before {
+  content: "\e833";
+}
+
+.icon-order-all:before {
+  content: "\e834";
+}
+
+.icon-order-complete:before {
+  content: "\e835";
+}
+
+.icon-order-pay:before {
+  content: "\e836";
+}
+
+.icon-order-confirm:before {
+  content: "\e837";
+}
+
+.icon-time-fill:before {
+  content: "\e84d";
+}
+
+.icon-add-btn-fill:before {
+  content: "\e838";
+}
+
+.icon-delete-fill:before {
+  content: "\e85e";
+}
+
+.icon-down-btn-fill:before {
+  content: "\e839";
+}
+
+.icon-error-fill:before {
+  content: "\e83a";
+}
+
+.icon-favorites-fill:before {
+  content: "\e83b";
+}
+
+.icon-favorites:before {
+  content: "\e83c";
+}
+
+.icon-down:before {
+  content: "\e860";
+}
+
+.icon-close:before {
+  content: "\e861";
+}
+
+.icon-delete:before {
+  content: "\e85f";
+}
+
+.icon-left:before {
+  content: "\e867";
+}
+
+.icon-info-fill:before {
+  content: "\e83d";
+}
+
+.icon-more:before {
+  content: "\e868";
+}
+
+.icon-location-fill:before {
+  content: "\e83e";
+}
+
+.icon-location:before {
+  content: "\e84e";
+}
+
+.icon-left-btn-fill:before {
+  content: "\e83f";
+}
+
+.icon-notice-fill:before {
+  content: "\e84f";
+}
+
+.icon-reduce-btn-fill:before {
+  content: "\e840";
+}
+
+.icon-notice:before {
+  content: "\e850";
+}
+
+.icon-right:before {
+  content: "\e859";
+}
+
+.icon-right-btn-fill:before {
+  content: "\e841";
+}
+
+.icon-settings-fill:before {
+  content: "\e851";
+}
+
+.icon-settings:before {
+  content: "\e853";
+}
+
+.icon-suspend-fill:before {
+  content: "\e843";
+}
+
+.icon-up-btn-fill:before {
+  content: "\e844";
+}
+
+.icon-up:before {
+  content: "\e862";
+}
+
+.icon-customer-service-fill:before {
+  content: "\e854";
+}
+
+.icon-customer-service:before {
+  content: "\e855";
+}
+
+.icon-home-fill:before {
+  content: "\e857";
+}
+
+.icon-pay-wechat:before {
+  content: "\eb7d";
+}
+

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "限时抢购",
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "goods-template": "/components/m-goods-list/promotion"
+  }
+}

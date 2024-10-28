@@ -1,0 +1,246 @@
+
+page {
+	height: 100%;
+}
+
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/*主题颜色 具体参考   https://ant.design/docs/spec/colors-cn */
+/**微信登录按钮颜色 */
+/**主颜色*/
+/*用于金钱等颜色 */
+/*主题高亮颜色*/
+/*辅助高亮颜色*/
+/*主题高亮背景颜色*/
+/*价格红高亮背景颜色*/
+/*辅助色*/
+.light-color.data-v-695732ee {
+  color: #ff6b35;
+}
+.main-color.data-v-695732ee {
+  color: #ff3c2a !important;
+}
+.bg-light-color.data-v-695732ee {
+  background-color: #ff6b35 !important;
+}
+.bg-main-color.data-v-695732ee {
+  background-color: #ff3c2a !important;
+}
+.bg-linear-gradient.data-v-695732ee {
+  background-image: linear-gradient(25deg, #fa123b, #ff6b35, #ff9f28, #ffcc03);
+}
+.uni-tabbar .uni-tabbar__icon.data-v-695732ee {
+  width: 20px;
+  height: 18px;
+}
+.flex.data-v-695732ee {
+  display: flex;
+}
+.btn.data-v-695732ee {
+  background-color: #ff6b35;
+  color: #ffffff;
+  border-width: 0px;
+  border: none;
+  border-radius: 44px;
+  height: 44px;
+  box-shadow: none;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 44px;
+  text-align: center;
+}
+.btn.data-v-695732ee::after {
+  border: none;
+}
+.button-hover.data-v-695732ee {
+  opacity: 0.7;
+}
+.margin.data-v-695732ee {
+  margin: 10px;
+}
+.tag.data-v-695732ee {
+  background-color: #f2f2f2;
+  color: #333333;
+  height: 28px;
+  border-radius: 28px;
+  box-shadow: none;
+  font-family: "PingFangSC-Regular", "PingFang SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  text-align: center;
+  width: 90px;
+}
+.c-content.data-v-695732ee {
+  background-color: #ffffff;
+  border-top: 1px solid #ebeef5;
+  border-bottom: 1px solid #ebeef5;
+}
+.mt-30.data-v-695732ee {
+  margin-top: 30rpx;
+}
+.border-top.data-v-695732ee {
+  border-top: 1px solid #ebeef5;
+}
+.describe.data-v-695732ee {
+  color: #909399;
+  font-size: 24rpx;
+  padding: 30rpx;
+}
+.flex-center.data-v-695732ee {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.flex-a-c.data-v-695732ee {
+  align-items: center;
+}
+.flex-j-sb.data-v-695732ee {
+  justify-content: space-between;
+}
+.relative.data-v-695732ee {
+  position: relative;
+}
+.wes.data-v-695732ee {
+  /* 多出部分用省略号表示 , 用于一行 */
+  overflow: hidden;
+  word-wrap: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.wes-2.data-v-695732ee {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.wes-3.data-v-695732ee {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.coupon-center.data-v-695732ee {
+  height: 100%;
+}
+.coupon-center .swiper-box .coupon-item.data-v-695732ee {
+  display: flex;
+  align-items: center;
+  height: 220rpx;
+  margin: 20rpx;
+}
+.coupon-center .swiper-box .coupon-item .left.data-v-695732ee {
+  height: 100%;
+  width: 260rpx;
+  background-color: #ff6b35;
+  position: relative;
+}
+.coupon-center .swiper-box .coupon-item .left .message.data-v-695732ee {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40rpx;
+}
+.coupon-center .swiper-box .coupon-item .left .message view.data-v-695732ee:nth-child(1) {
+  font-weight: bold;
+  font-size: 60rpx;
+}
+.coupon-center .swiper-box .coupon-item .left .message view.data-v-695732ee:nth-child(2) {
+  font-size: 24rpx;
+}
+.coupon-center .swiper-box .coupon-item .left .wave-line.data-v-695732ee {
+  height: 220rpx;
+  width: 8rpx;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ff6b35;
+  overflow: hidden;
+}
+.coupon-center .swiper-box .coupon-item .left .wave-line .wave.data-v-695732ee {
+  width: 8rpx;
+  height: 16rpx;
+  background-color: #ffffff;
+  border-radius: 0 16rpx 16rpx 0;
+  margin-top: 4rpx;
+}
+.coupon-center .swiper-box .coupon-item .left .circle.data-v-695732ee {
+  width: 40rpx;
+  height: 40rpx;
+  background-color: #f9f9f9;
+  position: absolute;
+  border-radius: 50%;
+  z-index: 111;
+}
+.coupon-center .swiper-box .coupon-item .left .circle-top.data-v-695732ee {
+  top: -20rpx;
+  right: -20rpx;
+}
+.coupon-center .swiper-box .coupon-item .left .circle-bottom.data-v-695732ee {
+  bottom: -20rpx;
+  right: -20rpx;
+}
+.coupon-center .swiper-box .coupon-item .right.data-v-695732ee {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 450rpx;
+  font-size: 24rpx;
+  height: 100%;
+  background-color: #ffffff;
+  overflow: hidden;
+  position: relative;
+}
+.coupon-center .swiper-box .coupon-item .right > view.data-v-695732ee:nth-child(1) {
+  color: #666666;
+  margin-left: 20rpx;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.coupon-center .swiper-box .coupon-item .right > view:nth-child(1) > view.data-v-695732ee:nth-child(1) {
+  color: #ff6262;
+  font-size: 30rpx;
+}
+.coupon-center .swiper-box .coupon-item .right .receive.data-v-695732ee {
+  color: #ffffff;
+  background-color: #ff3c2a;
+  border-radius: 50%;
+  width: 86rpx;
+  height: 86rpx;
+  text-align: center;
+  margin-right: 30rpx;
+  vertical-align: middle;
+  padding-top: 8rpx;
+  position: relative;
+  z-index: 2;
+}
+.coupon-center .swiper-box .coupon-item .right .bg-quan.data-v-695732ee {
+  width: 244rpx;
+  height: 244rpx;
+  border: 6rpx solid #ff3c2a;
+  border-radius: 50%;
+  opacity: 0.1;
+  color: #ff3c2a;
+  text-align: center;
+  padding-top: 30rpx;
+  font-size: 130rpx;
+  position: absolute;
+  right: -54rpx;
+  bottom: -60rpx;
+}
+.coupon-title.data-v-695732ee {
+  width: 260rpx;
+}
+

@@ -1,0 +1,218 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/*主题颜色 具体参考   https://ant.design/docs/spec/colors-cn */
+/**微信登录按钮颜色 */
+/**主颜色*/
+/*用于金钱等颜色 */
+/*主题高亮颜色*/
+/*辅助高亮颜色*/
+/*主题高亮背景颜色*/
+/*价格红高亮背景颜色*/
+/*辅助色*/
+.light-color.data-v-512c05a8 {
+  color: #ff6b35;
+}
+.main-color.data-v-512c05a8 {
+  color: #ff3c2a !important;
+}
+.bg-light-color.data-v-512c05a8 {
+  background-color: #ff6b35 !important;
+}
+.bg-main-color.data-v-512c05a8 {
+  background-color: #ff3c2a !important;
+}
+.bg-linear-gradient.data-v-512c05a8 {
+  background-image: linear-gradient(25deg, #fa123b, #ff6b35, #ff9f28, #ffcc03);
+}
+.uni-tabbar .uni-tabbar__icon.data-v-512c05a8 {
+  width: 20px;
+  height: 18px;
+}
+.flex.data-v-512c05a8 {
+  display: flex;
+}
+.btn.data-v-512c05a8 {
+  background-color: #ff6b35;
+  color: #ffffff;
+  border-width: 0px;
+  border: none;
+  border-radius: 44px;
+  height: 44px;
+  box-shadow: none;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 44px;
+  text-align: center;
+}
+.btn.data-v-512c05a8::after {
+  border: none;
+}
+.button-hover.data-v-512c05a8 {
+  opacity: 0.7;
+}
+.margin.data-v-512c05a8 {
+  margin: 10px;
+}
+.tag.data-v-512c05a8 {
+  background-color: #f2f2f2;
+  color: #333333;
+  height: 28px;
+  border-radius: 28px;
+  box-shadow: none;
+  font-family: "PingFangSC-Regular", "PingFang SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  text-align: center;
+  width: 90px;
+}
+.c-content.data-v-512c05a8 {
+  background-color: #ffffff;
+  border-top: 1px solid #ebeef5;
+  border-bottom: 1px solid #ebeef5;
+}
+.mt-30.data-v-512c05a8 {
+  margin-top: 30rpx;
+}
+.border-top.data-v-512c05a8 {
+  border-top: 1px solid #ebeef5;
+}
+.describe.data-v-512c05a8 {
+  color: #909399;
+  font-size: 24rpx;
+  padding: 30rpx;
+}
+.flex-center.data-v-512c05a8 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.flex-a-c.data-v-512c05a8 {
+  align-items: center;
+}
+.flex-j-sb.data-v-512c05a8 {
+  justify-content: space-between;
+}
+.relative.data-v-512c05a8 {
+  position: relative;
+}
+.wes.data-v-512c05a8 {
+  /* 多出部分用省略号表示 , 用于一行 */
+  overflow: hidden;
+  word-wrap: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.wes-2.data-v-512c05a8 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.wes-3.data-v-512c05a8 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.coupon-item.data-v-512c05a8 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.coupon-List.data-v-512c05a8 {
+  display: flex;
+  flex-direction: column;
+  height: 230rpx;
+  background: #e9ebfb;
+  margin: 30rpx 0;
+  padding: 10rpx 30rpx;
+}
+.coupon-List .line.data-v-512c05a8 {
+  height: 1px;
+  background: #fff;
+  margin: 0 20rpx;
+  position: relative;
+}
+.coupon-List .line.data-v-512c05a8:before, .coupon-List .line.data-v-512c05a8:after {
+  content: "";
+  display: block;
+  width: 15rpx;
+  height: 30rpx;
+  background: #fff;
+  position: absolute;
+  top: -15rpx;
+}
+.coupon-List .line.data-v-512c05a8:before {
+  left: -50rpx;
+}
+.coupon-List .line.data-v-512c05a8:after {
+  right: -50rpx;
+}
+.coupon-List .time.data-v-512c05a8 {
+  flex: 1;
+  font-size: 24rpx;
+  align-items: center;
+  display: flex;
+  align-items: center;
+}
+.top.data-v-512c05a8 {
+  height: 140rpx;
+  display: flex;
+}
+.top .price.data-v-512c05a8 {
+  width: 33%;
+  justify-content: center;
+  color: #6772e5;
+  font-size: 40rpx;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.top .price ._span.data-v-512c05a8 {
+  font-size: 50rpx;
+}
+.top .text.data-v-512c05a8 {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 26rpx;
+  color: 333;
+  margin-left: 40rpx;
+}
+.top .text .coupon-List-title.data-v-512c05a8 {
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.top .lingqu-btn.data-v-512c05a8 {
+  display: flex;
+  align-items: center;
+  margin-left: 40rpx;
+}
+.top .lingqu-btn text.data-v-512c05a8 {
+  width: 140rpx;
+  height: 40rpx;
+  text-align: center;
+  line-height: 40rpx;
+  color: #fff;
+  background: #6772e5;
+  border-radius: 5px;
+  font-size: 26rpx;
+}
+.top .lingqu-btn text.cur.data-v-512c05a8 {
+  background: none;
+  -webkit-transform: rotate(45deg) translate(10rpx, -46rpx);
+          transform: rotate(45deg) translate(10rpx, -46rpx);
+}
+

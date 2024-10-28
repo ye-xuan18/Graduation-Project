@@ -1,0 +1,162 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/*主题颜色 具体参考   https://ant.design/docs/spec/colors-cn */
+/**微信登录按钮颜色 */
+/**主颜色*/
+/*用于金钱等颜色 */
+/*主题高亮颜色*/
+/*辅助高亮颜色*/
+/*主题高亮背景颜色*/
+/*价格红高亮背景颜色*/
+/*辅助色*/
+.light-color.data-v-31fbc7f8 {
+  color: #ff6b35;
+}
+.main-color.data-v-31fbc7f8 {
+  color: #ff3c2a !important;
+}
+.bg-light-color.data-v-31fbc7f8 {
+  background-color: #ff6b35 !important;
+}
+.bg-main-color.data-v-31fbc7f8 {
+  background-color: #ff3c2a !important;
+}
+.bg-linear-gradient.data-v-31fbc7f8 {
+  background-image: linear-gradient(25deg, #fa123b, #ff6b35, #ff9f28, #ffcc03);
+}
+.uni-tabbar .uni-tabbar__icon.data-v-31fbc7f8 {
+  width: 20px;
+  height: 18px;
+}
+.flex.data-v-31fbc7f8 {
+  display: flex;
+}
+.btn.data-v-31fbc7f8 {
+  background-color: #ff6b35;
+  color: #ffffff;
+  border-width: 0px;
+  border: none;
+  border-radius: 44px;
+  height: 44px;
+  box-shadow: none;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 44px;
+  text-align: center;
+}
+.btn.data-v-31fbc7f8::after {
+  border: none;
+}
+.button-hover.data-v-31fbc7f8 {
+  opacity: 0.7;
+}
+.margin.data-v-31fbc7f8 {
+  margin: 10px;
+}
+.tag.data-v-31fbc7f8 {
+  background-color: #f2f2f2;
+  color: #333333;
+  height: 28px;
+  border-radius: 28px;
+  box-shadow: none;
+  font-family: "PingFangSC-Regular", "PingFang SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  text-align: center;
+  width: 90px;
+}
+.c-content.data-v-31fbc7f8 {
+  background-color: #ffffff;
+  border-top: 1px solid #ebeef5;
+  border-bottom: 1px solid #ebeef5;
+}
+.mt-30.data-v-31fbc7f8 {
+  margin-top: 30rpx;
+}
+.border-top.data-v-31fbc7f8 {
+  border-top: 1px solid #ebeef5;
+}
+.describe.data-v-31fbc7f8 {
+  color: #909399;
+  font-size: 24rpx;
+  padding: 30rpx;
+}
+.flex-center.data-v-31fbc7f8 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.flex-a-c.data-v-31fbc7f8 {
+  align-items: center;
+}
+.flex-j-sb.data-v-31fbc7f8 {
+  justify-content: space-between;
+}
+.relative.data-v-31fbc7f8 {
+  position: relative;
+}
+.wes.data-v-31fbc7f8 {
+  /* 多出部分用省略号表示 , 用于一行 */
+  overflow: hidden;
+  word-wrap: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.wes-2.data-v-31fbc7f8 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.wes-3.data-v-31fbc7f8 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.u-collapse-head.data-v-31fbc7f8 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #303133;
+  font-size: 30rpx;
+  line-height: 1;
+  padding: 24rpx 0;
+  text-align: left;
+}
+.u-collapse-title.data-v-31fbc7f8 {
+  flex: 1;
+  overflow: hidden;
+}
+.u-arrow-down-icon.data-v-31fbc7f8 {
+  transition: all 0.3s;
+  margin-right: 20rpx;
+  margin-left: 14rpx;
+}
+.u-arrow-down-icon-active.data-v-31fbc7f8 {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+.u-collapse-body.data-v-31fbc7f8 {
+  overflow: hidden;
+  transition: all 0.3s;
+}
+.u-collapse-content.data-v-31fbc7f8 {
+  overflow: hidden;
+  font-size: 28rpx;
+  color: #909399;
+  text-align: left;
+}
+

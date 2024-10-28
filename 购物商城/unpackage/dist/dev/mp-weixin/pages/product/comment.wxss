@@ -1,0 +1,268 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/*主题颜色 具体参考   https://ant.design/docs/spec/colors-cn */
+/**微信登录按钮颜色 */
+/**主颜色*/
+/*用于金钱等颜色 */
+/*主题高亮颜色*/
+/*辅助高亮颜色*/
+/*主题高亮背景颜色*/
+/*价格红高亮背景颜色*/
+/*辅助色*/
+.light-color.data-v-8329eb54 {
+  color: #ff6b35;
+}
+.main-color.data-v-8329eb54 {
+  color: #ff3c2a !important;
+}
+.bg-light-color.data-v-8329eb54 {
+  background-color: #ff6b35 !important;
+}
+.bg-main-color.data-v-8329eb54 {
+  background-color: #ff3c2a !important;
+}
+.bg-linear-gradient.data-v-8329eb54 {
+  background-image: linear-gradient(25deg, #fa123b, #ff6b35, #ff9f28, #ffcc03);
+}
+.uni-tabbar .uni-tabbar__icon.data-v-8329eb54 {
+  width: 20px;
+  height: 18px;
+}
+.flex.data-v-8329eb54 {
+  display: flex;
+}
+.btn.data-v-8329eb54 {
+  background-color: #ff6b35;
+  color: #ffffff;
+  border-width: 0px;
+  border: none;
+  border-radius: 44px;
+  height: 44px;
+  box-shadow: none;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 44px;
+  text-align: center;
+}
+.btn.data-v-8329eb54::after {
+  border: none;
+}
+.button-hover.data-v-8329eb54 {
+  opacity: 0.7;
+}
+.margin.data-v-8329eb54 {
+  margin: 10px;
+}
+.tag.data-v-8329eb54 {
+  background-color: #f2f2f2;
+  color: #333333;
+  height: 28px;
+  border-radius: 28px;
+  box-shadow: none;
+  font-family: "PingFangSC-Regular", "PingFang SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  text-align: center;
+  width: 90px;
+}
+.c-content.data-v-8329eb54 {
+  background-color: #ffffff;
+  border-top: 1px solid #ebeef5;
+  border-bottom: 1px solid #ebeef5;
+}
+.mt-30.data-v-8329eb54 {
+  margin-top: 30rpx;
+}
+.border-top.data-v-8329eb54 {
+  border-top: 1px solid #ebeef5;
+}
+.describe.data-v-8329eb54 {
+  color: #909399;
+  font-size: 24rpx;
+  padding: 30rpx;
+}
+.flex-center.data-v-8329eb54 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.flex-a-c.data-v-8329eb54 {
+  align-items: center;
+}
+.flex-j-sb.data-v-8329eb54 {
+  justify-content: space-between;
+}
+.relative.data-v-8329eb54 {
+  position: relative;
+}
+.wes.data-v-8329eb54 {
+  /* 多出部分用省略号表示 , 用于一行 */
+  overflow: hidden;
+  word-wrap: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.wes-2.data-v-8329eb54 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.wes-3.data-v-8329eb54 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.commentStyle.data-v-8329eb54 {
+  margin-top: 16rpx;
+  padding: 14rpx 26rpx;
+  background: #f5f5f5;
+  border-radius: 6px;
+  font-size: 22rpx;
+  font-weight: 700;
+  text-align: left;
+  line-height: 40rpx;
+}
+.addCommentSpan.data-v-8329eb54 {
+  color: #909399 !important;
+  padding-left: 20rpx;
+}
+.img.data-v-8329eb54 {
+  display: flex;
+  flex-wrap: wrap;
+  /* height: 140rpx; */
+  overflow: hidden;
+}
+.img image.data-v-8329eb54 {
+  width: 166rpx;
+  height: 166rpx;
+  margin: 0 15rpx 15rpx 0;
+}
+.img image.data-v-8329eb54:nth-of-type(3n + 0) {
+  margin: 0 0 15rpx 0;
+}
+.goodsBoxOver.data-v-8329eb54 {
+  overflow-y: scroll;
+}
+page.data-v-8329eb54 {
+  background: #f7f7f7;
+}
+.comment.data-v-8329eb54 {
+  color: #333;
+  background: #f7f7f7;
+  overflow: hidden;
+}
+.comment .top-tab.data-v-8329eb54 {
+  background: #fff;
+  margin-bottom: 10rpx;
+  border-radius: 20rpx;
+  display: flex;
+  flex-direction: column;
+  padding: 0 30rpx 0 30rpx;
+  font-size: 24rpx;
+}
+.comment .top-tab .tab-btn.data-v-8329eb54 {
+  margin-top: 20rpx;
+  display: flex;
+  flex-wrap: wrap;
+}
+.comment .top-tab .tab-btn view.data-v-8329eb54 {
+  min-width: 118rpx;
+  text-align: center;
+  height: 50rpx;
+  line-height: 50rpx;
+  padding: 0 10rpx;
+  background: #f8f8fe;
+  border-radius: 25rpx;
+  margin: 0 20rpx 30rpx 0;
+}
+.comment .top-tab .tab-btn view.cur.data-v-8329eb54 {
+  background: #ff9f28;
+  color: #fff;
+}
+.comment .eva-section.data-v-8329eb54 {
+  padding: 20rpx 0;
+}
+.comment .eva-section .eva-box.data-v-8329eb54 {
+  padding: 40rpx;
+  margin-bottom: 10rpx;
+  background: #fff;
+  border-radius: 20rpx;
+  /* star */
+}
+.comment .eva-section .eva-box .star-content.data-v-8329eb54 {
+  display: flex;
+  flex-direction: column;
+}
+.comment .eva-section .eva-box .star-content view.data-v-8329eb54 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.comment .eva-section .eva-box .star-content .time.data-v-8329eb54 {
+  font-size: 24rpx;
+  color: #999;
+}
+.comment .eva-section .eva-box .section-info.data-v-8329eb54 {
+  display: flex;
+}
+.comment .eva-section .eva-box .section-info .stars.data-v-8329eb54 {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.comment .eva-section .eva-box .section-info .stars .star.data-v-8329eb54 {
+  width: 30rpx;
+  height: 30rpx;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAEX0lEQVRoQ+2ZX2gcVRjFz5mttnUmQcWZjX8Q0YS4s8lTVVCw1CqCBIwialssJQhCoYgWRWvVWlGIhUL7Im0VKdhqK4JFKygK1foQkK4R2p0tQWk1aLKzfakzqbTJzicb27BJN9l7NzMkge7rnO985zffnbm7d4kF/mGS+f/x3Z4UJWXahQ+T6pMoQFB0+0ikLMe7Z8EBBL77FIGDF4P3WI63NwmIxCYQFt3vQTxYCU2gz3S8+xYMwNlSpislPDwpsOAZK+3tjxsikQmEfvYwIF1Twv5kOd7yeQ8QDN25ginjSK2gUYTu5hbvyzghYp9AUHS/IPFYzZDEEcv2Vs5bgJGh7N2Skp9nCpii8cBS+8QPcUHEOoHQdz8D8OTM4fid5eQfnncAwVDWZUryKsHI6C7TPplT0dbTxDaBsOTuh2BNvYbj+wJxyLS9x1W09TSxAPw73Hl72Sj/Xq9Z9fWIUXuzfXJAp6aWdlYAx44tu6r9tvOtjMqvAFynFYb8WMrRNivNAdK7oFVbJVYCCIsdaQPSOkZpI9hKohUibQCyABY32vxi3agApwk5JcLTJE4xQoFXo/+a670/63lPAFy6m6ko6hBKJ8DOSNBJ4I56JglfH6rARcLjhoH+sTJ+bU6j/9LUJgDCUuYTCFcnHCYmezlgOYXxrJOWUOi7HwHoialLUjZ7LcebyHjZMxAUs++Tsj6p7rPxJbHLtL1J2Wo+xGHJ3Q7Bxtk0i7+WOy0n/8JU32nfQoHvvkvgtfiDNOIo71lO4VXtfSAoZt8g5e1GWsZVQ2KraXtvTedXdx8IS5mXIdwWVyBNn02W4/XOVFMXoFIc+O7zBHZqNp+dnPKiZRd21DNRAqiYjJTc50Swu55hHNcpWG+mvV0qXsoAFbPQz64DJJHjkaqwWkcwWgCVJuf8zNMReEDl7uhqJJLVTS0FLW9tgJFS+00iqb90wynqb7Qcb1hROy7TBzjjdkuEQzpN1LV8xHLy36jrGwAI/Ow7hGzWaaKhrfvanOqlPYGwmPkWZGw/yicFIg9adn6VBrD+EgqL7h8gbtVpoqoVYKDJ8dpV9drPwODgLUuvW9x8TqeBrtY8e2EJ2347r1qntYSCvzPLuYg/qpo3ohsblWXX3lz4RbVWCyAsuRsh2K5q3pBOsNZKe/tUa/UAfLfyV9GzKuYC9MHg6xgtR0xxC8AVKnWI0Gu1eJuUtLr7QOi7RwHcX8c8R8oW0y58Xa37/9RaCeQry/EeTQqgskumpzHPCdjb5OQ/n6l5eCbzECJsnnYixKBle8pvOeUlFAxnOmjweI1wORjYYd2gvm4rHiOlTJcIXqoFskiM1iXpE0onfToAq2jw0yqAHMndpp3/QHXctXRBMfsEGW2oBmGEblPxjxB1gGL2TVK2AsiR2GPa3p7ZBJ9aGw5n1whlA4l7ASh/pVAGCIvuPho4Gnfwy0B8tweClVbaW6tyg5QBVMzmQnMFYC7uenXPKxOY6wn8B2wGWkBJSXG5AAAAAElFTkSuQmCC);
+  background-size: 100%;
+}
+.comment .eva-section .eva-box .section-info .portrait.data-v-8329eb54 {
+  flex-shrink: 0;
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 100px;
+  margin-right: 20rpx;
+}
+.comment .eva-section .eva-box .section-contant.data-v-8329eb54 {
+  display: flex;
+  flex-direction: column;
+}
+.comment .eva-section .eva-box .section-contant .content.data-v-8329eb54 {
+  font-size: 24rpx;
+  line-height: 46rpx;
+  font-weight: 400;
+  color: #303133;
+  color: #333;
+  padding: 26rpx 0;
+}
+.comment .eva-section .eva-box .section-contant .img.data-v-8329eb54 {
+  display: flex;
+  flex-wrap: wrap;
+  /* height: 140rpx; */
+  overflow: hidden;
+}
+.comment .eva-section .eva-box .section-contant .bot.data-v-8329eb54 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24rpx;
+  color: #909399;
+  margin-top: 20rpx;
+}
+.empty.data-v-8329eb54 {
+  padding-top: 300rpx;
+  color: #999999;
+  text-align: center;
+}
+

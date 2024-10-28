@@ -1,0 +1,187 @@
+{
+  "pages": [
+    "pages/tabbar/home/index",
+    "pages/tabbar/screen/fullScreen",
+    "pages/tabbar/home/title",
+    "pages/tabbar/cart/cartList",
+    "pages/tabbar/category/category",
+    "pages/navigation/search/searchPage",
+    "pages/tabbar/user/my",
+    "pages/tabbar/home/web-view",
+    "pages/tabbar/special/special"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/mine",
+      "pages": [
+        "signIn",
+        "myTracks",
+        "myCollect",
+        "distribution/list",
+        "distribution/withdrawal",
+        "distribution/join",
+        "distribution/history",
+        "distribution/auth",
+        "distribution/achievement",
+        "distribution/home",
+        "deposit/index",
+        "deposit/operation",
+        "deposit/recharge",
+        "deposit/withdrawal",
+        "deposit/info",
+        "address/address",
+        "address/storeAddress",
+        "address/add",
+        "address/addressManage",
+        "set/versionFunctionList",
+        "set/securityCenter/fingerLogin",
+        "set/securityCenter/faceLogin",
+        "set/securityCenter/editPassword",
+        "set/securityCenter/bindMobile",
+        "im/list",
+        "im/index",
+        "set/feedBack",
+        "set/securityCenter/securityCenter",
+        "set/editionIntro",
+        "set/setUp",
+        "set/personMsg",
+        "help/tips",
+        "point/myPoint",
+        "msgTips/main",
+        "msgTips/sysMsg/index",
+        "msgTips/serviceMsg/index",
+        "msgTips/packageMsg/index",
+        "msgTips/packageMsg/logisticsDetail"
+      ]
+    },
+    {
+      "root": "pages/product",
+      "pages": [
+        "shopPage",
+        "shopList",
+        "licencePhoto",
+        "shopPageGoods",
+        "goods",
+        "askList",
+        "comment",
+        "customerservice/index"
+      ]
+    },
+    {
+      "root": "pages/floor",
+      "pages": [
+        "empty"
+      ]
+    },
+    {
+      "root": "pages/passport",
+      "pages": [
+        "login",
+        "entry/seller/index",
+        "entry/seller/control",
+        "article",
+        "wechatMPLogin",
+        "scannerCodeLoginConfirm"
+      ]
+    },
+    {
+      "root": "pages/promotion",
+      "pages": [
+        "seckill",
+        "joinGroup",
+        "lives",
+        "bargain/list",
+        "bargain/detail",
+        "bargain/log",
+        "point/detail",
+        "point/pointList"
+      ]
+    },
+    {
+      "root": "pages/cart",
+      "pages": [
+        "coupon/myCoupon",
+        "coupon/couponDetail",
+        "coupon/index",
+        "coupon/couponCenter",
+        "payment/payOrder",
+        "payment/success",
+        "payment/shareOrderGoods"
+      ]
+    },
+    {
+      "root": "pages/order",
+      "pages": [
+        "complain/complain",
+        "complain/complainInfo",
+        "complain/complainList",
+        "myOrder",
+        "invoice/invoiceDetail",
+        "orderDetail",
+        "deliverDetail",
+        "evaluate/evaluateDetail",
+        "evaluate/releaseEvaluate",
+        "evaluate/myEvaluate",
+        "afterSales/applyProgress",
+        "afterSales/applyDetail",
+        "afterSales/applySuccess",
+        "afterSales/afterSalesDetailExpress",
+        "afterSales/afterSalesSelect",
+        "afterSales/afterSalesDetail",
+        "afterSales/afterSales",
+        "fillorder"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Lili商城",
+    "titleColor": "#303133",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#fff",
+    "color": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#ff573e",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/tabbar/home/index",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home-s.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabbar/category/category",
+        "iconPath": "static/tabbar/category.png",
+        "selectedIconPath": "static/tabbar/category-s.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/tabbar/cart/cartList",
+        "iconPath": "static/tabbar/cart.png",
+        "selectedIconPath": "static/tabbar/cart-s.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/tabbar/user/my",
+        "iconPath": "static/tabbar/mine.png",
+        "selectedIconPath": "static/tabbar/mine-s.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "位置信息将用于高德地图的效果展示"
+    }
+  },
+  "plugins": {},
+  "requiredPrivateInfos": [
+    "chooseLocation",
+    "getLocation"
+  ],
+  "usingComponents": {}
+}

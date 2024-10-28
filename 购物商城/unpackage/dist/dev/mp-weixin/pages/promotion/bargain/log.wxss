@@ -1,0 +1,186 @@
+
+page.data-v-514b1b9c {
+  background: #fff;
+}
+
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/*主题颜色 具体参考   https://ant.design/docs/spec/colors-cn */
+/**微信登录按钮颜色 */
+/**主颜色*/
+/*用于金钱等颜色 */
+/*主题高亮颜色*/
+/*辅助高亮颜色*/
+/*主题高亮背景颜色*/
+/*价格红高亮背景颜色*/
+/*辅助色*/
+.light-color.data-v-514b1b9c {
+  color: #ff6b35;
+}
+.main-color.data-v-514b1b9c {
+  color: #ff3c2a !important;
+}
+.bg-light-color.data-v-514b1b9c {
+  background-color: #ff6b35 !important;
+}
+.bg-main-color.data-v-514b1b9c {
+  background-color: #ff3c2a !important;
+}
+.bg-linear-gradient.data-v-514b1b9c {
+  background-image: linear-gradient(25deg, #fa123b, #ff6b35, #ff9f28, #ffcc03);
+}
+.uni-tabbar .uni-tabbar__icon.data-v-514b1b9c {
+  width: 20px;
+  height: 18px;
+}
+.flex.data-v-514b1b9c {
+  display: flex;
+}
+.btn.data-v-514b1b9c {
+  background-color: #ff6b35;
+  color: #ffffff;
+  border-width: 0px;
+  border: none;
+  border-radius: 44px;
+  height: 44px;
+  box-shadow: none;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 44px;
+  text-align: center;
+}
+.btn.data-v-514b1b9c::after {
+  border: none;
+}
+.button-hover.data-v-514b1b9c {
+  opacity: 0.7;
+}
+.margin.data-v-514b1b9c {
+  margin: 10px;
+}
+.tag.data-v-514b1b9c {
+  background-color: #f2f2f2;
+  color: #333333;
+  height: 28px;
+  border-radius: 28px;
+  box-shadow: none;
+  font-family: "PingFangSC-Regular", "PingFang SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  text-align: center;
+  width: 90px;
+}
+.c-content.data-v-514b1b9c {
+  background-color: #ffffff;
+  border-top: 1px solid #ebeef5;
+  border-bottom: 1px solid #ebeef5;
+}
+.mt-30.data-v-514b1b9c {
+  margin-top: 30rpx;
+}
+.border-top.data-v-514b1b9c {
+  border-top: 1px solid #ebeef5;
+}
+.describe.data-v-514b1b9c {
+  color: #909399;
+  font-size: 24rpx;
+  padding: 30rpx;
+}
+.flex-center.data-v-514b1b9c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.flex-a-c.data-v-514b1b9c {
+  align-items: center;
+}
+.flex-j-sb.data-v-514b1b9c {
+  justify-content: space-between;
+}
+.relative.data-v-514b1b9c {
+  position: relative;
+}
+.wes.data-v-514b1b9c {
+  /* 多出部分用省略号表示 , 用于一行 */
+  overflow: hidden;
+  word-wrap: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.wes-2.data-v-514b1b9c {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.wes-3.data-v-514b1b9c {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.box.data-v-514b1b9c {
+  padding: 0 32rpx;
+  background: #fff;
+}
+.buy.data-v-514b1b9c {
+  background: #ff6b35;
+  color: #fff;
+  display: inline;
+  padding: 10rpx 0;
+  border-radius: 100rpx;
+  width: 200rpx;
+  text-align: center;
+  font-size: 24rpx;
+  margin-top: 20rpx;
+}
+.tips-box.data-v-514b1b9c {
+  flex: 1;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.tips.data-v-514b1b9c {
+  color: #999;
+  margin-top: 20rpx;
+}
+.surplusPrice.data-v-514b1b9c {
+  font-size: 40rpx;
+  margin-left: 10rpx;
+  font-weight: bold;
+  color: #ff6b35;
+}
+.goods.data-v-514b1b9c {
+  margin: 0 20rpx;
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  justify-content: center;
+}
+.flex.data-v-514b1b9c {
+  border-bottom: 1rpx solid #f7f7f7;
+  padding: 20rpx 0;
+  margin: 10rpx 0;
+}
+.SUCCESS.data-v-514b1b9c {
+  color: #ff6b35;
+}
+.START.data-v-514b1b9c {
+  color: #ff9f28;
+}
+.END.data-v-514b1b9c {
+  color: #999;
+}
+.FAIL.data-v-514b1b9c {
+  color: #ff3c2a;
+}
+

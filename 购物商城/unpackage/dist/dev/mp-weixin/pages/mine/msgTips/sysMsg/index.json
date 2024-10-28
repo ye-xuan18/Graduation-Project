@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "系统消息",
+  "usingComponents": {
+    "u-card": "/uview-ui/components/u-card/u-card",
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}

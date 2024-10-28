@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "step1": "/pages/passport/entry/seller/step1",
+    "step2": "/pages/passport/entry/seller/step2",
+    "step3": "/pages/passport/entry/seller/step3"
+  }
+}

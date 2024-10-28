@@ -1,0 +1,9 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-empty": "/uview-ui/components/u-empty/u-empty",
+    "goods-template": "/components/m-goods-list/promotion"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="default-page data-v-369f9d38"><view class="default-wrap data-v-369f9d38"><text class="data-v-369f9d38">{{title}}</text><block wx:if="{{isBtn}}"><view data-event-opts="{{[['tap',[['toHome',['$event']]]]]}}" class="btn data-v-369f9d38" bindtap="__e">去逛逛</view></block></view></view>

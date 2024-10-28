@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "砍价记录",
+  "usingComponents": {
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "u-empty": "/uview-ui/components/u-empty/u-empty"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "u-count-down": "/uview-ui/components/u-count-down/u-count-down",
+    "shares": "/components/m-share/index",
+    "popup-goods": "/components/m-buy/goods"
+  }
+}

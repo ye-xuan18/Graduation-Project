@@ -1,0 +1,243 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/*主题颜色 具体参考   https://ant.design/docs/spec/colors-cn */
+/**微信登录按钮颜色 */
+/**主颜色*/
+/*用于金钱等颜色 */
+/*主题高亮颜色*/
+/*辅助高亮颜色*/
+/*主题高亮背景颜色*/
+/*价格红高亮背景颜色*/
+/*辅助色*/
+.light-color {
+  color: #ff6b35;
+}
+.main-color {
+  color: #ff3c2a !important;
+}
+.bg-light-color {
+  background-color: #ff6b35 !important;
+}
+.bg-main-color {
+  background-color: #ff3c2a !important;
+}
+.bg-linear-gradient {
+  background-image: linear-gradient(25deg, #fa123b, #ff6b35, #ff9f28, #ffcc03);
+}
+.uni-tabbar .uni-tabbar__icon {
+  width: 20px;
+  height: 18px;
+}
+.flex {
+  display: flex;
+}
+.btn {
+  background-color: #ff6b35;
+  color: #ffffff;
+  border-width: 0px;
+  border: none;
+  border-radius: 44px;
+  height: 44px;
+  box-shadow: none;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 44px;
+  text-align: center;
+}
+.btn::after {
+  border: none;
+}
+.button-hover {
+  opacity: 0.7;
+}
+.margin {
+  margin: 10px;
+}
+.tag {
+  background-color: #f2f2f2;
+  color: #333333;
+  height: 28px;
+  border-radius: 28px;
+  box-shadow: none;
+  font-family: "PingFangSC-Regular", "PingFang SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  text-align: center;
+  width: 90px;
+}
+.c-content {
+  background-color: #ffffff;
+  border-top: 1px solid #ebeef5;
+  border-bottom: 1px solid #ebeef5;
+}
+.mt-30 {
+  margin-top: 30rpx;
+}
+.border-top {
+  border-top: 1px solid #ebeef5;
+}
+.describe {
+  color: #909399;
+  font-size: 24rpx;
+  padding: 30rpx;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.flex-a-c {
+  align-items: center;
+}
+.flex-j-sb {
+  justify-content: space-between;
+}
+.relative {
+  position: relative;
+}
+.wes {
+  /* 多出部分用省略号表示 , 用于一行 */
+  overflow: hidden;
+  word-wrap: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.wes-2 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.wes-3 {
+  /* 适用于webkit内核和移动端 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+page,
+.content {
+  background: #f8f8f8;
+  height: 100%;
+}
+.body-view {
+  overflow-y: auto;
+  height: calc(100vh - 44px - 80rpx - 104rpx);
+}
+.u-tabs-search {
+  padding: 20rpx;
+  background: #fff;
+}
+.countMoney {
+  margin-left: 7rpx;
+  color: #ff3c2a;
+  font-size: 28rpx;
+}
+.seller-view {
+  background-color: #fff;
+  margin: 20rpx 0rpx;
+  padding: 0rpx 20rpx;
+  border-radius: 20rpx;
+}
+.seller-view .seller-info {
+  height: 70rpx;
+}
+.seller-view .seller-info .seller-name {
+  font-size: 28rpx;
+  display: flex;
+  flex-direction: row;
+}
+.seller-view .seller-info .seller-name .name {
+  margin-left: 15rpx;
+  margin-top: -2rpx;
+}
+.seller-view .seller-info .order-sn {
+  font-size: 22rpx;
+  color: #909399;
+}
+.seller-view .goods-item-view {
+  display: flex;
+  flex-direction: row;
+  padding: 10rpx 10rpx;
+}
+.seller-view .goods-item-view .goods-img {
+  width: 131rpx;
+  height: 131rpx;
+}
+.seller-view .goods-item-view .goods-info {
+  padding-left: 30rpx;
+  flex: 1;
+}
+.seller-view .goods-item-view .goods-info .goods-title {
+  margin-bottom: 10rpx;
+  color: #333333;
+}
+.seller-view .goods-item-view .goods-info .goods-specs {
+  font-size: 24rpx;
+  margin-bottom: 10rpx;
+  color: #cccccc;
+}
+.seller-view .goods-item-view .goods-info .goods-price {
+  font-size: 28rpx;
+  margin-bottom: 10rpx;
+  color: #ff5a10;
+}
+.seller-view .goods-item-view .goods-num {
+  width: 60rpx;
+  color: #ff3c2a;
+}
+.seller-view .btn-view {
+  padding: 16rpx 0;
+}
+.seller-view .btn-view .after-line {
+  display: flex;
+  line-height: 90rpx;
+}
+.description {
+  color: #909399;
+  size: 25rpx;
+}
+.cannot_apply {
+  text-align: center;
+  font-size: 22rpx;
+  color: #999999;
+  height: 70rpx;
+  line-height: 70rpx;
+}
+.not_center {
+  text-align: left;
+}
+.icon {
+  margin-right: 10rpx;
+}
+.sale {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.default-btn {
+  background-color: #ffffff;
+  margin-left: 15rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  font-size: 24rpx;
+  padding: 0 24rpx;
+  border-radius: 200px;
+}
+.close {
+  color: #ff6b35;
+}
+.border {
+  border: 2rpx solid #ff6b35;
+  color: #ff6b35;
+}
+

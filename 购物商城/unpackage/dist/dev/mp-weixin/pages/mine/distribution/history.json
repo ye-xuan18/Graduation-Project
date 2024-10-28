@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "提现历史",
+  "usingComponents": {
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore"
+  }
+}
