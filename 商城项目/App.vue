@@ -1,10 +1,10 @@
 <style lang="scss">
-	/* 注意要写在第一行，同时给style标签加入lang="scss"属性 */
+	/* style标签加入lang="scss"属性 */
 	@import "uview-ui/index.scss";
 </style>
 <script>
 	/**
-	 * vuex管理登陆状态，具体可以参考官方登陆模板示例
+	 * vuex管理登陆状态
 	 */
 	import {
 		mapState,
@@ -23,7 +23,7 @@
 			// #ifdef APP-PLUS
 			plus.screen.lockOrientation('portrait-primary');
 			// #endif
-			//如果缓存了用户，获取用户信息
+			//缓存了用户，获取用户信息
 			uni.getStorage({
 				key: 'userInfo',
 				success: function(res) {
@@ -36,7 +36,7 @@
 					console.log('no user info found from storage');
 				}
 			});
-			//如果缓存了购物车，获取购物车信息
+			//缓存了购物车，获取购物车信息
 			uni.getStorage({
 				key: 'cartInfo',
 				success: function(res) {
@@ -51,22 +51,22 @@
 			//获取应用全局设置
 			this.$api.request.applicationConfig({}, res => {
 				if (res.body.status.statusCode === '0') {
-					this.updateApplicationConfig(res.body.data); //将全局设置保存起来
+					this.updateApplicationConfig(res.body.data); //保存全局设置
 				} else {
 					console.log('获取应用全局设置失败');
 				}
 			});
-			//获取当前使用的UI布局
+			//获取使用的UI布局
 			this.updateActiveLayout(this.uiConfig.activeLayoutName);
 
 			var tokenId = uni.getStorageSync('userToken');
 			if (tokenId) {
-				//使用token就可以查询用户信息
+				//使用token查询用户信息
 				this.$api.request.userInfo({
 					tokenId: tokenId
 				}, loginRes => {
 					if (loginRes.body.status.statusCode === '0') {
-						this.login(loginRes.body.data); //将用户信息保存起来
+						this.login(loginRes.body.data); //用户信息保存起来
 					} else {
 						console.log('同步用户信息失败, tokenId: ' + tokenId);
 					}
